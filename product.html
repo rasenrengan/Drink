@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Details | Drink</title>
+    <meta name="description" content="View our premium selection of fine wines and select beers.">
+    <meta property="og:title" content="Product Details | Drink">
+    <meta property="og:description" content="View our premium selection of fine wines and select beers.">
+    <meta property="og:image" content="https://rasenrengan.github.io/beverage-catalog/images/logo.png">
+    <meta property="og:url" content="https://rasenrengan.github.io/beverage-catalog/product.html">
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LiquorStore",
+      "name": "DRINK",
+      "image": "https://rasenrengan.github.io/beverage-catalog/images/logo.png",
+      "@id": "https://rasenrengan.github.io/beverage-catalog/",
+      "url": "https://rasenrengan.github.io/beverage-catalog/",
+      "telephone": "+201200669461",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "As Soyouf Bahri",
+        "addressLocality": "Qesm Al Montazah",
+        "addressRegion": "Alexandria Governorate",
+        "postalCode": "5517045",
+        "addressCountry": "EG"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 31.2589, 
+        "longitude": 30.0124
+      },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+          "opens": "12:00",
+          "closes": "04:00"
+        }
+      ]
+    }
+    </script>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="global-banner">
+        <img src="images/banner.png" alt="DRINK Banner">
+    </div>
+    <header class="navbar">
+        <div class="logo"><a href="index.html"><img src="images/logo.png" alt="DRINK Logo"></a></div>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="catalog.html">Catalog</a>
+            <a href="blog.html">Journal</a>
+        </nav>
+        <div class="nav-search">
+            <input type="text" id="global-search-input" placeholder="Search products...">
+            <button id="global-search-btn">🔍</button>
+        </div>
+    </header>
+
+    <main class="product-detail-page" style="padding: 60px 5%; max-width: 1200px; margin: 0 auto;">
+        <a href="catalog.html" style="color: var(--accent); margin-bottom: 30px; display: inline-block;">&larr; Back to Catalog</a>
+        
+        <div class="product-detail-container" id="product-detail-container" style="display: flex; gap: 50px; background: var(--card-bg); padding: 40px; border-radius: 15px; border: 1px solid var(--border);">
+            <!-- Content injected by JS -->
+            <p>Loading product details...</p>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-links">
+            <a href="about.html">About Us</a>
+            <a href="contact.html">Contact Us</a>
+        </div>
+        <p>&copy; 2026 DRINK. All rights reserved. Not for online sale.</p>
+    </footer>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
