@@ -1,0 +1,1421 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Connoisseur's Journal | DRINK - Premium Beverage Guide & Recipes</title>
+    <meta name="description" content="Explore DRINK's curated cocktail recipes and sommelier wine guide. Learn mixology secrets and red, white, and rosé wine food pairings in Alexandria.">
+    <meta property="og:title" content="Connoisseur's Journal | DRINK - Premium Beverage Guide & Recipes">
+    <meta property="og:description" content="Explore DRINK's curated cocktail recipes and sommelier wine guide. Learn mixology secrets and red, white, and rosé wine food pairings in Alexandria.">
+    <meta property="og:image" content="https://rasenrengan.github.io/beverage-catalog/images/logo.png">
+    <meta property="og:url" content="https://rasenrengan.github.io/beverage-catalog/blog.html">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        .journal-hero {
+            position: relative;
+            height: 50vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            background: linear-gradient(rgba(13, 15, 18, 0.8), rgba(13, 15, 18, 0.9)), url('https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?auto=format&fit=crop&w=1500&q=80');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            border-bottom: 1px solid rgba(212, 175, 55, 0.2);
+        }
+        
+        .journal-hero-content h1 {
+            font-size: 3.5rem;
+            font-weight: 800;
+            background: linear-gradient(135deg, #ffffff, var(--accent));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 15px;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+        }
+
+        .journal-hero-content p {
+            color: var(--text-muted);
+            font-size: 1.2rem;
+            font-weight: 300;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .filter-nav {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin: 50px 0 20px 0;
+            flex-wrap: wrap;
+        }
+
+        .filter-btn {
+            background: rgba(255, 255, 255, 0.02);
+            border: 1px solid rgba(212, 175, 55, 0.2);
+            color: var(--text-muted);
+            padding: 12px 28px;
+            font-size: 1rem;
+            font-weight: 600;
+            border-radius: 30px;
+            cursor: pointer;
+            font-family: 'Outfit', sans-serif;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            transition: all 0.3s ease;
+        }
+
+        .filter-btn.active, .filter-btn:hover {
+            background: rgba(212, 175, 55, 0.1);
+            border-color: var(--accent);
+            color: var(--accent);
+            box-shadow: 0 0 15px rgba(212, 175, 55, 0.1);
+        }
+
+        /* Sub Filter Bar for Cocktail Base Spirits */
+        .spirit-filter-nav {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            margin: 0px auto 40px auto;
+            flex-wrap: wrap;
+            max-width: 800px;
+            background: rgba(255, 255, 255, 0.01);
+            padding: 8px;
+            border-radius: 40px;
+            border: 1px solid rgba(255, 255, 255, 0.03);
+        }
+
+        .spirit-btn {
+            background: transparent;
+            border: none;
+            color: var(--text-muted);
+            padding: 8px 18px;
+            font-size: 0.9rem;
+            font-weight: 600;
+            border-radius: 20px;
+            cursor: pointer;
+            font-family: 'Outfit', sans-serif;
+            transition: all 0.3s ease;
+        }
+
+        .spirit-btn.active, .spirit-btn:hover {
+            background: rgba(212, 175, 55, 0.15);
+            color: var(--accent);
+        }
+
+        .journal-section {
+            padding: 20px 5% 60px 5%;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .recipes-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 40px;
+            margin-top: 20px;
+        }
+
+        .recipe-card {
+            background: rgba(255, 255, 255, 0.02);
+            border: 1px solid rgba(255, 255, 255, 0.05);
+            border-radius: 16px;
+            overflow: hidden;
+            transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+            position: relative;
+        }
+
+        .recipe-card:hover {
+            transform: translateY(-8px);
+            border-color: rgba(212, 175, 55, 0.3);
+            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.4), 0 0 20px rgba(212, 175, 55, 0.05);
+        }
+
+        .recipe-img-container {
+            position: relative;
+            height: 220px;
+            overflow: hidden;
+        }
+
+        .recipe-img-container img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.6s ease;
+        }
+
+        .recipe-card:hover .recipe-img-container img {
+            transform: scale(1.08);
+        }
+
+        .recipe-badge {
+            position: absolute;
+            top: 15px;
+            right: 15px;
+            background: rgba(13, 15, 18, 0.85);
+            backdrop-filter: blur(5px);
+            border: 1px solid var(--accent);
+            color: var(--accent);
+            padding: 5px 12px;
+            font-size: 0.8rem;
+            font-weight: 600;
+            border-radius: 20px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .recipe-info {
+            padding: 25px;
+        }
+
+        .recipe-info h3 {
+            font-size: 1.5rem;
+            color: var(--text-main);
+            margin-bottom: 10px;
+            font-weight: 600;
+            border-bottom: 1px solid rgba(212, 175, 55, 0.1);
+            padding-bottom: 8px;
+        }
+
+        .recipe-meta {
+            display: flex;
+            gap: 15px;
+            color: var(--text-muted);
+            font-size: 0.85rem;
+            margin-bottom: 20px;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+            padding-bottom: 12px;
+        }
+
+        .recipe-meta span {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+
+        .ingredients-list {
+            margin-bottom: 20px;
+        }
+
+        .ingredients-list h4 {
+            color: var(--accent);
+            font-size: 0.95rem;
+            margin-bottom: 8px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .ingredients-list ul {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        .ingredients-list li {
+            color: var(--text-muted);
+            font-size: 0.95rem;
+            margin-bottom: 6px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .ingredients-list li::before {
+            content: "•";
+            color: var(--accent);
+        }
+
+        .instructions-list h4 {
+            color: var(--accent);
+            font-size: 0.95rem;
+            margin-bottom: 8px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .instructions-list ol {
+            padding-left: 20px;
+            color: var(--text-muted);
+            font-size: 0.95rem;
+        }
+
+        .instructions-list li {
+            margin-bottom: 8px;
+            line-height: 1.5;
+        }
+
+        /* Wine Guide Styles */
+        .wine-guide-container {
+            display: flex;
+            flex-direction: column;
+            gap: 40px;
+            margin-top: 20px;
+        }
+
+        .wine-type-section {
+            background: rgba(255, 255, 255, 0.01);
+            border: 1px solid rgba(255, 255, 255, 0.05);
+            border-radius: 18px;
+            padding: 40px;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 40px;
+            align-items: center;
+            transition: all 0.3s ease;
+        }
+
+        .wine-type-section:hover {
+            border-color: rgba(212, 175, 55, 0.2);
+            background: rgba(255, 255, 255, 0.02);
+        }
+
+        .wine-type-section.reverse {
+            grid-template-columns: 1fr 1fr;
+        }
+
+        .wine-type-info h3 {
+            font-size: 2.2rem;
+            margin-bottom: 15px;
+            font-weight: 800;
+        }
+
+        .wine-type-info h3.red-title {
+            background: linear-gradient(135deg, #ff4757, #b33939);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .wine-type-info h3.white-title {
+            background: linear-gradient(135deg, #eccc68, #ffa502);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .wine-type-info h3.rose-title {
+            background: linear-gradient(135deg, #ff7f50, #ff6b81);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .wine-type-info .subtitle {
+            color: var(--accent);
+            font-size: 1rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 20px;
+        }
+
+        .wine-type-info p {
+            color: var(--text-muted);
+            line-height: 1.8;
+            margin-bottom: 25px;
+            font-size: 1.05rem;
+        }
+
+        .pairing-box {
+            background: rgba(13, 15, 18, 0.4);
+            border: 1px solid rgba(212, 175, 55, 0.1);
+            padding: 20px;
+            border-radius: 12px;
+        }
+
+        .pairing-box h4 {
+            color: var(--accent);
+            font-size: 1rem;
+            margin-bottom: 10px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .pairing-box p {
+            color: var(--text-main);
+            font-size: 0.95rem;
+            margin-bottom: 0;
+            line-height: 1.6;
+        }
+
+        .wine-type-visual {
+            position: relative;
+            height: 380px;
+            border-radius: 14px;
+            overflow: hidden;
+        }
+
+        .wine-type-visual img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .wine-type-visual-overlay {
+            position: absolute;
+            top: 0; left: 0; width: 100%; height: 100%;
+            background: linear-gradient(to top, rgba(13, 15, 18, 0.9), transparent);
+        }
+
+        @media (max-width: 900px) {
+            .wine-type-section, .wine-type-section.reverse {
+                grid-template-columns: 1fr;
+                gap: 30px;
+                padding: 25px;
+            }
+            .wine-type-visual {
+                height: 250px;
+                order: -1;
+            }
+            .journal-hero-content h1 {
+                font-size: 2.5rem;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .filter-nav {
+                justify-content: flex-start;
+                overflow-x: auto;
+                white-space: nowrap;
+                scrollbar-width: none;
+                -webkit-overflow-scrolling: touch;
+                padding: 0 15px;
+                gap: 12px;
+                margin: 30px 0 15px 0;
+                width: 100vw;
+                margin-left: -5%;
+            }
+            .filter-nav::-webkit-scrollbar {
+                display: none;
+            }
+            .filter-btn {
+                flex: 0 0 auto;
+                padding: 10px 20px;
+                font-size: 0.9rem;
+            }
+
+            .spirit-filter-nav {
+                justify-content: flex-start;
+                overflow-x: auto;
+                white-space: nowrap;
+                scrollbar-width: none;
+                -webkit-overflow-scrolling: touch;
+                padding: 6px 15px;
+                gap: 8px;
+                margin-bottom: 25px;
+                width: 100vw;
+                margin-left: -5%;
+                border-radius: 0;
+                border-left: none;
+                border-right: none;
+            }
+            .spirit-filter-nav::-webkit-scrollbar {
+                display: none;
+            }
+            .spirit-btn {
+                flex: 0 0 auto;
+                padding: 8px 16px;
+                font-size: 0.85rem;
+            }
+
+            .recipes-grid {
+                grid-template-columns: 1fr;
+                gap: 25px;
+            }
+            .recipe-card {
+                border-radius: 12px;
+            }
+            .recipe-img-container {
+                height: 180px;
+            }
+            .recipe-info {
+                padding: 18px;
+            }
+            .recipe-info h3 {
+                font-size: 1.35rem;
+            }
+            
+            .journal-hero {
+                height: 35vh;
+            }
+            .journal-hero-content h1 {
+                font-size: 2.2rem;
+            }
+            .journal-hero-content p {
+                font-size: 1rem;
+                padding: 0 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="global-banner">
+        <img src="images/banner.png" alt="DRINK Storefront Banner - premium wine, beers, and spirits guide in Alexandria" title="DRINK Premium Wine, Beers, & Spirits Journal banner">
+    </div>
+    <header class="navbar" title="DRINK - late night home delivery navbar catalog search">
+        <div class="logo"><a href="index.html"><img src="images/logo.png" alt="DRINK Store logo - elite liquor store and alcohol retail monopoly in As Soyouf Bahri, Qesm Al Montazah, Alexandria" title="DRINK Brand Logo"></a></div>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="catalog.html">Catalog</a>
+            <a href="blog.html" class="active">Journal</a>
+        </nav>
+        <div class="nav-search">
+            <input type="text" id="global-search-input" placeholder="Search products...">
+            <button id="global-search-btn">🔍</button>
+        </div>
+    </header>
+
+    <main title="DRINK Connoisseur's Journal - Cocktail Mixology Recipes & Sommelier Wine Pairing Guide">
+        <!-- Parallax Hero -->
+        <section class="journal-hero" title="DRINK Connoisseur's Journal Banner overlay">
+            <div class="journal-hero-content">
+                <h1>Connoisseur's Journal</h1>
+                <p>Curated mixology secrets, legendary cocktail recipes, and professional wine pairing guides from the DRINK master sommeliers.</p>
+            </div>
+        </section>
+
+        <!-- Toggle Controls -->
+        <div class="filter-nav">
+            <button class="filter-btn active" id="btn-recipes" onclick="switchTab('recipes')">Mixology Recipes</button>
+            <button class="filter-btn" id="btn-wines" onclick="switchTab('wines')">Wine Selection & Pairing</button>
+        </div>
+
+        <!-- 1. Recipes Section -->
+        <section class="journal-section" id="section-recipes" title="Curated Cocktail Mixology Recipes">
+            
+            <!-- Base Spirit Filter Tabs -->
+            <div class="spirit-filter-nav">
+                <button class="spirit-btn active" onclick="filterSpirit('all')">All Spirits</button>
+                <button class="spirit-btn" onclick="filterSpirit('gin')">Gin</button>
+                <button class="spirit-btn" onclick="filterSpirit('vodka')">Vodka</button>
+                <button class="spirit-btn" onclick="filterSpirit('whiskey')">Whiskey</button>
+                <button class="spirit-btn" onclick="filterSpirit('rum')">Rum</button>
+                <button class="spirit-btn" onclick="filterSpirit('tequila')">Tequila</button>
+                <button class="spirit-btn" onclick="filterSpirit('other')">Traditional & Beer</button>
+            </div>
+
+            <div class="recipes-grid">
+                
+                <!-- Recipe 1 (Gin) -->
+                <article class="recipe-card" data-spirit="gin" title="The DRINK Sapphire Spritz recipe card">
+                    <div class="recipe-img-container">
+                        <img src="https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?auto=format&fit=crop&w=700&q=80" alt="DRINK Sapphire Spritz premium blue cocktail recipe">
+                        <span class="recipe-badge">Vibrant & Crisp</span>
+                    </div>
+                    <div class="recipe-info">
+                        <h3>The DRINK Sapphire Spritz</h3>
+                        <div class="recipe-meta">
+                            <span>⏱️ 5 Mins</span>
+                            <span>🍹 Easy</span>
+                            <span>🥂 Spritz Glass</span>
+                        </div>
+                        <div class="ingredients-list">
+                            <h4>Ingredients</h4>
+                            <ul>
+                                <li>50ml Premium Gin (e.g. Harry's Premium Gin)</li>
+                                <li>15ml Blue Curaçao liqueur</li>
+                                <li>120ml Premium Tonic Water</li>
+                                <li>Fresh blueberries & lemon peel</li>
+                                <li>Fresh rosemary sprig (garnish)</li>
+                            </ul>
+                        </div>
+                        <div class="instructions-list">
+                            <h4>Preparation</h4>
+                            <ol>
+                                <li>Fill a large balloon glass to the brim with crushed premium ice blocks.</li>
+                                <li>Pour the dry gin and blue curaçao over the ice, stirring gently.</li>
+                                <li>Top slowly with chilled tonic water to preserve carbonation.</li>
+                                <li>Express the lemon peel over the glass, drop in a few fresh blueberries.</li>
+                                <li>Light the tip of the rosemary briefly for a smoky aroma, and garnish.</li>
+                            </ol>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Recipe 2 (Whiskey) -->
+                <article class="recipe-card" data-spirit="whiskey" title="The Smoked Rosemary Old Fashioned recipe card">
+                    <div class="recipe-img-container">
+                        <img src="https://images.unsplash.com/photo-1470337458703-46ad1756a187?auto=format&fit=crop&w=700&q=80" alt="Smoked Rosemary Old Fashioned premium cocktail recipe">
+                        <span class="recipe-badge">Bold & Smoky</span>
+                    </div>
+                    <div class="recipe-info">
+                        <h3>Smoked Rosemary Old Fashioned</h3>
+                        <div class="recipe-meta">
+                            <span>⏱️ 7 Mins</span>
+                            <span>🥃 Medium</span>
+                            <span>🥃 Rocks Glass</span>
+                        </div>
+                        <div class="ingredients-list">
+                            <h4>Ingredients</h4>
+                            <ul>
+                                <li>60ml Blended Scotch (e.g. Devlin Blended Whiskey)</li>
+                                <li>2 dashes Aromatic Angostura Bitters</li>
+                                <li>1 Premium brown sugar cube</li>
+                                <li>Fresh rosemary sprig & orange peel</li>
+                                <li>1 Large clear ice block</li>
+                            </ul>
+                        </div>
+                        <div class="instructions-list">
+                            <h4>Preparation</h4>
+                            <ol>
+                                <li>Place brown sugar cube in rocks glass. Add bitters and muddle until dissolved.</li>
+                                <li>Use a kitchen torch to lightly char a fresh rosemary sprig until aromatic smoke releases inside the glass.</li>
+                                <li>Add a single large ice block on top of the rosemary.</li>
+                                <li>Pour the blended whiskey slowly, stirring continuously for 20 seconds.</li>
+                                <li>Express and garnish with an orange peel twist.</li>
+                            </ol>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Recipe 3 (Gin) -->
+                <article class="recipe-card" data-spirit="gin" title="Alexandria Sunset Hibiscus Spritz recipe card">
+                    <div class="recipe-img-container">
+                        <img src="https://images.unsplash.com/photo-1551024709-8f23befc6f87?auto=format&fit=crop&w=700&q=80" alt="Alexandria Sunset Hibiscus Spritz premium cocktail recipe">
+                        <span class="recipe-badge">Exotic & Fruity</span>
+                    </div>
+                    <div class="recipe-info">
+                        <h3>Alexandria Sunset Spritz</h3>
+                        <div class="recipe-meta">
+                            <span>⏱️ 6 Mins</span>
+                            <span>🍸 Easy</span>
+                            <span>🍷 Wine Glass</span>
+                        </div>
+                        <div class="ingredients-list">
+                            <h4>Ingredients</h4>
+                            <ul>
+                                <li>45ml Botanical Dry Gin (or Swan Premium Vodka)</li>
+                                <li>30ml Cold brewed organic hibiscus tea</li>
+                                <li>15ml Freshly squeezed lime juice</li>
+                                <li>60ml Sparkling Wine (e.g. Aida Valmont)</li>
+                                <li>Fresh mint leaves & lime wheel</li>
+                            </ul>
+                        </div>
+                        <div class="instructions-list">
+                            <h4>Preparation</h4>
+                            <ol>
+                                <li>In a cocktail shaker with ice, combine the gin, hibiscus tea, and lime juice.</li>
+                                <li>Shake vigorously for 10 seconds until chilled.</li>
+                                <li>Double strain into a wine glass filled with fresh ice.</li>
+                                <li>Top with sparkling wine to create a gorgeous layered sunset look. Garnish with lime & mint.</li>
+                            </ol>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Recipe 4 (Beer - Other) -->
+                <article class="recipe-card" data-spirit="other" title="The Sakara Golden Shandy recipe card">
+                    <div class="recipe-img-container">
+                        <img src="https://images.unsplash.com/photo-1571613316887-6f8d5cbf7ef7?auto=format&fit=crop&w=700&q=80" alt="Sakara Golden Shandy beer cocktail">
+                        <span class="recipe-badge">Light & Herbal</span>
+                    </div>
+                    <div class="recipe-info">
+                        <h3>The Sakara Golden Shandy</h3>
+                        <div class="recipe-meta">
+                            <span>⏱️ 4 Mins</span>
+                            <span>🍺 Easy</span>
+                            <span>🍺 Pint Glass</span>
+                        </div>
+                        <div class="ingredients-list">
+                            <h4>Ingredients</h4>
+                            <ul>
+                                <li>150ml Sakara Gold Beer (chilled)</li>
+                                <li>100ml Premium Lemonade</li>
+                                <li>15ml Homemade Ginger Syrup</li>
+                                <li>Fresh mint sprig & lemon wheel</li>
+                            </ul>
+                        </div>
+                        <div class="instructions-list">
+                            <h4>Preparation</h4>
+                            <ol>
+                                <li>Stir the ginger syrup and cloudy lemonade together at the bottom of a cold pint glass.</li>
+                                <li>Add ice blocks if desired, then pour the chilled Sakara Gold slowly to prevent excess foam.</li>
+                                <li>Stir once very gently with a bar spoon.</li>
+                                <li>Garnish with a lemon wheel and a fresh sprig of Egyptian mint.</li>
+                            </ol>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Recipe 5 (Beer - Other) -->
+                <article class="recipe-card" data-spirit="other" title="Stella Mint Cooler recipe card">
+                    <div class="recipe-img-container">
+                        <img src="https://images.unsplash.com/photo-1532634922-8fe0b757fb13?auto=format&fit=crop&w=700&q=80" alt="Stella Mint Cooler refreshing lager cocktail">
+                        <span class="recipe-badge">Ultimate Refreshment</span>
+                    </div>
+                    <div class="recipe-info">
+                        <h3>Stella Mint Cooler</h3>
+                        <div class="recipe-meta">
+                            <span>⏱️ 4 Mins</span>
+                            <span>🍺 Easy</span>
+                            <span>🍺 Highball Glass</span>
+                        </div>
+                        <div class="ingredients-list">
+                            <h4>Ingredients</h4>
+                            <ul>
+                                <li>180ml Stella Lager (ice cold)</li>
+                                <li>30ml Fresh lime juice</li>
+                                <li>15ml Simple syrup</li>
+                                <li>6-8 Fresh mint leaves</li>
+                                <li>Lime wheel for decoration</li>
+                            </ul>
+                        </div>
+                        <div class="instructions-list">
+                            <h4>Preparation</h4>
+                            <ol>
+                                <li>Muddle mint leaves gently with simple syrup and fresh lime juice in a highball glass.</li>
+                                <li>Fill the glass with crushed ice blocks.</li>
+                                <li>Slowly pour the ice-cold Stella Lager over the top.</li>
+                                <li>Give a quick, gentle stir from bottom to top and slide a lime wheel inside.</li>
+                            </ol>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Recipe 6 (Vodka) -->
+                <article class="recipe-card" data-spirit="vodka" title="ID Blue Lagoon recipe card">
+                    <div class="recipe-img-container">
+                        <img src="https://images.unsplash.com/photo-1536935338788-846bb9981813?auto=format&fit=crop&w=700&q=80" alt="ID Blue Lagoon vodka cocktail">
+                        <span class="recipe-badge">Vibrant Oasis</span>
+                    </div>
+                    <div class="recipe-info">
+                        <h3>ID Blue Lagoon</h3>
+                        <div class="recipe-meta">
+                            <span>⏱️ 5 Mins</span>
+                            <span>🍸 Easy</span>
+                            <span>🍹 Hurricane Glass</span>
+                        </div>
+                        <div class="ingredients-list">
+                            <h4>Ingredients</h4>
+                            <ul>
+                                <li>50ml ID Vodka Blue40</li>
+                                <li>20ml Blue Curaçao liqueur</li>
+                                <li>120ml Sparkling lemonade or Sprite</li>
+                                <li>Fresh lemon wheel & maraschino cherry</li>
+                            </ul>
+                        </div>
+                        <div class="instructions-list">
+                            <h4>Preparation</h4>
+                            <ol>
+                                <li>Fill a tall hurricane glass with fresh ice cubes.</li>
+                                <li>Pour the high-proof ID Vodka Blue40 and blue curaçao over the ice.</li>
+                                <li>Top with sparkling lemonade and stir gently.</li>
+                                <li>Garnish with a lemon wheel and a cherry on a bamboo stick.</li>
+                            </ol>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Recipe 7 (Vodka) -->
+                <article class="recipe-card" data-spirit="vodka" title="ID Black Cherry Fizz recipe card">
+                    <div class="recipe-img-container">
+                        <img src="https://images.unsplash.com/photo-1556679343-c7306c1976bc?auto=format&fit=crop&w=700&q=80" alt="ID Black Cherry Fizz cocktail">
+                        <span class="recipe-badge">Bold Fruit Blast</span>
+                    </div>
+                    <div class="recipe-info">
+                        <h3>ID Black Cherry Fizz</h3>
+                        <div class="recipe-meta">
+                            <span>⏱️ 5 Mins</span>
+                            <span>🍹 Easy</span>
+                            <span>🍹 Highball Glass</span>
+                        </div>
+                        <div class="ingredients-list">
+                            <h4>Ingredients</h4>
+                            <ul>
+                                <li>50ml ID Vodka Black50</li>
+                                <li>25ml Dark sweet cherry syrup</li>
+                                <li>20ml Fresh lime juice</li>
+                                <li>90ml Club soda</li>
+                                <li>Dark cherries & lime wheel (garnish)</li>
+                            </ul>
+                        </div>
+                        <div class="instructions-list">
+                            <h4>Preparation</h4>
+                            <ol>
+                                <li>Combine the ID Vodka Black50, cherry syrup, and lime juice in a shaker with ice.</li>
+                                <li>Shake vigorously for 8 seconds.</li>
+                                <li>Strain into a tall glass packed with fresh ice blocks.</li>
+                                <li>Top with sparkling club soda, stir lightly, and drop in fresh cherries.</li>
+                            </ol>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Recipe 8 (Whiskey) -->
+                <article class="recipe-card" data-spirit="whiskey" title="The Devlin Sour recipe card">
+                    <div class="recipe-img-container">
+                        <img src="https://images.unsplash.com/photo-1510626176961-4b57d4f40a53?auto=format&fit=crop&w=700&q=80" alt="Devlin Sour whiskey cocktail">
+                        <span class="recipe-badge">Silky Connoisseur</span>
+                    </div>
+                    <div class="recipe-info">
+                        <h3>The Devlin Sour</h3>
+                        <div class="recipe-meta">
+                            <span>⏱️ 8 Mins</span>
+                            <span>🥃 Hard</span>
+                            <span>🍸 Coupe Glass</span>
+                        </div>
+                        <div class="ingredients-list">
+                            <h4>Ingredients</h4>
+                            <ul>
+                                <li>60ml Devlin Blended Whiskey</li>
+                                <li>30ml Fresh lemon juice</li>
+                                <li>20ml Rich simple syrup (2:1 ratio)</li>
+                                <li>15ml Fresh egg white (or aquafaba)</li>
+                                <li>3 drops Angostura Bitters</li>
+                            </ul>
+                        </div>
+                        <div class="instructions-list">
+                            <h4>Preparation</h4>
+                            <ol>
+                                <li>Combine Devlin Whiskey, lemon juice, simple syrup, and egg white in a shaker without ice. Dry shake for 15 seconds to emulsify egg white.</li>
+                                <li>Add ice blocks and wet shake vigorously for another 12 seconds.</li>
+                                <li>Double strain into a chilled coupe glass.</li>
+                                <li>Drip Angostura bitters onto the velvety foam, swirling with a toothpick for art.</li>
+                            </ol>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Recipe 9 (Vodka) -->
+                <article class="recipe-card" data-spirit="vodka" title="The Alexandria Mule recipe card">
+                    <div class="recipe-img-container">
+                        <img src="https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?auto=format&fit=crop&w=700&q=80" alt="Alexandria Mule cocktail in copper cup">
+                        <span class="recipe-badge">Spicy & Tangy</span>
+                    </div>
+                    <div class="recipe-info">
+                        <h3>The Alexandria Mule</h3>
+                        <div class="recipe-meta">
+                            <span>⏱️ 5 Mins</span>
+                            <span>🍸 Easy</span>
+                            <span>🍺 Copper Mug</span>
+                        </div>
+                        <div class="ingredients-list">
+                            <h4>Ingredients</h4>
+                            <ul>
+                                <li>50ml Swan Premium Vodka</li>
+                                <li>15ml Fresh lime juice</li>
+                                <li>120ml Fiery Ginger Beer</li>
+                                <li>Fresh cucumber ribbon & lime wedge</li>
+                            </ul>
+                        </div>
+                        <div class="instructions-list">
+                            <h4>Preparation</h4>
+                            <ol>
+                                <li>Squeeze fresh lime juice into a premium copper mug.</li>
+                                <li>Fill the copper mug 3/4 with crushed ice.</li>
+                                <li>Pour in the smooth Swan Vodka and top with fiery ginger beer.</li>
+                                <li>Stir gently and garnish with a beautiful cucumber ribbon and a lime wedge.</li>
+                            </ol>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Recipe 10 (Rum) -->
+                <article class="recipe-card" data-spirit="rum" title="Cubana Mojito Smooth recipe card">
+                    <div class="recipe-img-container">
+                        <img src="https://images.unsplash.com/photo-1546171753-97d7676e4602?auto=format&fit=crop&w=700&q=80" alt="Cubana Mojito rum cocktail">
+                        <span class="recipe-badge">Tropical Escape</span>
+                    </div>
+                    <div class="recipe-info">
+                        <h3>Cubana Mojito Smooth</h3>
+                        <div class="recipe-meta">
+                            <span>⏱️ 6 Mins</span>
+                            <span>🍹 Medium</span>
+                            <span>🍹 Highball Glass</span>
+                        </div>
+                        <div class="ingredients-list">
+                            <h4>Ingredients</h4>
+                            <ul>
+                                <li>60ml Cubana Rum Smooth</li>
+                                <li>8-10 Fresh Egyptian mint leaves</li>
+                                <li>1/2 Fresh lime cut into 4 wedges</li>
+                                <li>2 tsp Demerara brown sugar</li>
+                                <li>Soda water to top</li>
+                            </ul>
+                        </div>
+                        <div class="instructions-list">
+                            <h4>Preparation</h4>
+                            <ol>
+                                <li>Muddle brown sugar and fresh lime wedges at the bottom of the glass to release juice.</li>
+                                <li>Add mint leaves, slapping them first, and muddle very gently to avoid bitterness.</li>
+                                <li>Fill the glass with crushed ice.</li>
+                                <li>Pour the Cubana Rum Smooth over the top, top with soda, and stir fully from bottom.</li>
+                            </ol>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Recipe 11 (Rum) -->
+                <article class="recipe-card" data-spirit="rum" title="DRINK Golden Daiquiri recipe card">
+                    <div class="recipe-img-container">
+                        <img src="https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?auto=format&fit=crop&w=700&q=80" alt="DRINK Golden Daiquiri premium rum cocktail">
+                        <span class="recipe-badge">Vintage Luxury</span>
+                    </div>
+                    <div class="recipe-info">
+                        <h3>DRINK Golden Daiquiri</h3>
+                        <div class="recipe-meta">
+                            <span>⏱️ 5 Mins</span>
+                            <span>🍸 Easy</span>
+                            <span>🍸 Coupe Glass</span>
+                        </div>
+                        <div class="ingredients-list">
+                            <h4>Ingredients</h4>
+                            <ul>
+                                <li>60ml Cubana Rum Gold</li>
+                                <li>30ml Fresh lime juice</li>
+                                <li>15ml Rich cane sugar syrup</li>
+                                <li>Dehydrated lime wheel (garnish)</li>
+                            </ul>
+                        </div>
+                        <div class="instructions-list">
+                            <h4>Preparation</h4>
+                            <ol>
+                                <li>Chill a coupe glass in the freezer.</li>
+                                <li>Combine the Cubana Rum Gold, fresh lime juice, and simple syrup in a cocktail shaker filled with ice.</li>
+                                <li>Shake vigorously for 12 seconds until frozen.</li>
+                                <li>Double strain into the chilled coupe and float a dehydrated lime wheel.</li>
+                            </ol>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Recipe 12 (Gin) -->
+                <article class="recipe-card" data-spirit="gin" title="Butler's Gin Fizz recipe card">
+                    <div class="recipe-img-container">
+                        <img src="https://images.unsplash.com/photo-1551024709-8f23befc6f87?auto=format&fit=crop&w=700&q=80" alt="Butler's Gin Fizz sparkling gin cocktail">
+                        <span class="recipe-badge">Effervescent & Botanical</span>
+                    </div>
+                    <div class="recipe-info">
+                        <h3>Butler's Gin Fizz</h3>
+                        <div class="recipe-meta">
+                            <span>⏱️ 6 Mins</span>
+                            <span>🍸 Medium</span>
+                            <span>🍹 Collins Glass</span>
+                        </div>
+                        <div class="ingredients-list">
+                            <h4>Ingredients</h4>
+                            <ul>
+                                <li>50ml Butler's Gin Lime 15%</li>
+                                <li>25ml Fresh lemon juice</li>
+                                <li>15ml Rosemary-infused simple syrup</li>
+                                <li>75ml Club soda (chilled)</li>
+                                <li>Fresh rosemary sprig & lemon twist</li>
+                            </ul>
+                        </div>
+                        <div class="instructions-list">
+                            <h4>Preparation</h4>
+                            <ol>
+                                <li>Shake the Butler's Gin, lemon juice, and rosemary syrup with ice in a cocktail shaker.</li>
+                                <li>Strain into a tall Collins glass without ice (for traditional fizz feel) or over fresh cubes.</li>
+                                <li>Pour chilled club soda slowly over the top to make it foam.</li>
+                                <li>Garnish with a lemon twist and fresh rosemary.</li>
+                            </ol>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Recipe 13 (Tequila) -->
+                <article class="recipe-card" data-spirit="tequila" title="Malvado Margarita Silver recipe card">
+                    <div class="recipe-img-container">
+                        <img src="https://images.unsplash.com/photo-1557685888-2d3820d95513?auto=format&fit=crop&w=700&q=80" alt="Malvado Margarita Silver premium tequila cocktail">
+                        <span class="recipe-badge">Classic Zesty</span>
+                    </div>
+                    <div class="recipe-info">
+                        <h3>Malvado Margarita Silver</h3>
+                        <div class="recipe-meta">
+                            <span>⏱️ 5 Mins</span>
+                            <span>🍸 Easy</span>
+                            <span>🍸 Margarita Glass</span>
+                        </div>
+                        <div class="ingredients-list">
+                            <h4>Ingredients</h4>
+                            <ul>
+                                <li>50ml Malvado Tequila Silver</li>
+                                <li>25ml Triple Sec (orange liqueur)</li>
+                                <li>25ml Fresh lime juice</li>
+                                <li>Coarse sea salt & lime wheel</li>
+                            </ul>
+                        </div>
+                        <div class="instructions-list">
+                            <h4>Preparation</h4>
+                            <ol>
+                                <li>Rub a lime wedge around the outer rim of a chilled margarita glass and roll in coarse sea salt.</li>
+                                <li>Add the Malvado Tequila, triple sec, and fresh lime juice into a shaker with ice.</li>
+                                <li>Shake vigorously for 10 seconds.</li>
+                                <li>Strain into the prepared glass over fresh ice blocks or served straight up.</li>
+                            </ol>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Recipe 14 (Tequila) -->
+                <article class="recipe-card" data-spirit="tequila" title="Malvado Sunset Sunrise recipe card">
+                    <div class="recipe-img-container">
+                        <img src="https://images.unsplash.com/photo-1543007630-9710e4a00a20?auto=format&fit=crop&w=700&q=80" alt="Malvado Sunset Sunrise tequila cocktail">
+                        <span class="recipe-badge">Breathtaking Layers</span>
+                    </div>
+                    <div class="recipe-info">
+                        <h3>Malvado Sunset Sunrise</h3>
+                        <div class="recipe-meta">
+                            <span>⏱️ 5 Mins</span>
+                            <span>🍹 Easy</span>
+                            <span>🍹 Highball Glass</span>
+                        </div>
+                        <div class="ingredients-list">
+                            <h4>Ingredients</h4>
+                            <ul>
+                                <li>50ml Malvado Tequila Gold</li>
+                                <li>120ml Freshly squeezed orange juice</li>
+                                <li>15ml Premium Grenadine syrup</li>
+                                <li>Orange slice & maraschino cherry</li>
+                            </ul>
+                        </div>
+                        <div class="instructions-list">
+                            <h4>Preparation</h4>
+                            <ol>
+                                <li>Fill a tall highball glass to the top with fresh ice blocks.</li>
+                                <li>Pour the rich Malvado Tequila Gold and fresh orange juice over the ice, stir briefly.</li>
+                                <li>Pour the grenadine slowly down the inside of the glass. It will sink and rise slowly to create beautiful sunset layers.</li>
+                                <li>Do not stir. Garnish with orange & cherry.</li>
+                            </ol>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Recipe 15 (Tequila) -->
+                <article class="recipe-card" data-spirit="tequila" title="Mediterranean Paloma recipe card">
+                    <div class="recipe-img-container">
+                        <img src="https://images.unsplash.com/photo-1551538827-9c037cb4f32a?auto=format&fit=crop&w=700&q=80" alt="Mediterranean Paloma tequila grapefruit cocktail">
+                        <span class="recipe-badge">Zesty Grapefruit</span>
+                    </div>
+                    <div class="recipe-info">
+                        <h3>Mediterranean Paloma</h3>
+                        <div class="recipe-meta">
+                            <span>⏱️ 5 Mins</span>
+                            <span>🍸 Easy</span>
+                            <span>🍹 Highball Glass</span>
+                        </div>
+                        <div class="ingredients-list">
+                            <h4>Ingredients</h4>
+                            <ul>
+                                <li>50ml Malvado Tequila Silver</li>
+                                <li>15ml Fresh lime juice</li>
+                                <li>120ml Pink grapefruit soda</li>
+                                <li>Pinch of sea salt</li>
+                                <li>Grapefruit slice for garnish</li>
+                            </ul>
+                        </div>
+                        <div class="instructions-list">
+                            <h4>Preparation</h4>
+                            <ol>
+                                <li>Add a pinch of sea salt and fresh lime juice into a highball glass.</li>
+                                <li>Fill the glass with large ice blocks.</li>
+                                <li>Pour the silver Malvado Tequila, then top with cold pink grapefruit soda.</li>
+                                <li>Stir very gently once and garnish with a beautiful fresh grapefruit slice.</li>
+                            </ol>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Recipe 16 (Vodka) -->
+                <article class="recipe-card" data-spirit="vodka" title="DRINK Espresso Martini recipe card">
+                    <div class="recipe-img-container">
+                        <img src="https://images.unsplash.com/photo-1545438102-799c3991ffb2?auto=format&fit=crop&w=700&q=80" alt="DRINK Espresso Martini premium vodka coffee cocktail">
+                        <span class="recipe-badge">Elegant Energizer</span>
+                    </div>
+                    <div class="recipe-info">
+                        <h3>DRINK Espresso Martini</h3>
+                        <div class="recipe-meta">
+                            <span>⏱️ 6 Mins</span>
+                            <span>☕ Medium</span>
+                            <span>🍸 Coupe Glass</span>
+                        </div>
+                        <div class="ingredients-list">
+                            <h4>Ingredients</h4>
+                            <ul>
+                                <li>50ml Swan Premium Vodka</li>
+                                <li>25ml Rich Coffee Liqueur</li>
+                                <li>30ml Fresh hot espresso shot</li>
+                                <li>5ml Salted caramel syrup</li>
+                                <li>3 Espresso beans for floating</li>
+                            </ul>
+                        </div>
+                        <div class="instructions-list">
+                            <h4>Preparation</h4>
+                            <ol>
+                                <li>Brew a fresh espresso shot and let cool slightly.</li>
+                                <li>Fill a cocktail shaker to the top with premium ice blocks.</li>
+                                <li>Pour Swan Vodka, coffee liqueur, caramel syrup, and hot espresso over ice.</li>
+                                <li>Shake vigorously for 15 seconds. Double strain into chilled coupe.</li>
+                                <li>Garnish with three floating coffee beans.</li>
+                            </ol>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Recipe 17 (Gin) -->
+                <article class="recipe-card" data-spirit="gin" title="Classic Dry Martini recipe card">
+                    <div class="recipe-img-container">
+                        <img src="https://images.unsplash.com/photo-1575444758702-4a6b9222336e?auto=format&fit=crop&w=700&q=80" alt="Classic Dry Martini gin cocktail">
+                        <span class="recipe-badge">Ultimate Sophistication</span>
+                    </div>
+                    <div class="recipe-info">
+                        <h3>Classic Dry Martini</h3>
+                        <div class="recipe-meta">
+                            <span>⏱️ 5 Mins</span>
+                            <span>🍸 Medium</span>
+                            <span>🍸 Martini Glass</span>
+                        </div>
+                        <div class="ingredients-list">
+                            <h4>Ingredients</h4>
+                            <ul>
+                                <li>60ml Butler's Gin (or Mosaic Gin)</li>
+                                <li>10ml Dry Vermouth</li>
+                                <li>1 large green olive (stuffed)</li>
+                                <li>Lemon peel twist (optional)</li>
+                            </ul>
+                        </div>
+                        <div class="instructions-list">
+                            <h4>Preparation</h4>
+                            <ol>
+                                <li>Fill a mixing glass with high-density ice blocks.</li>
+                                <li>Pour the Butler's dry gin and vermouth over the ice.</li>
+                                <li>Stir continuously for 30 seconds to chill and dilute perfectly.</li>
+                                <li>Strain into a frozen martini glass and garnish with a green olive on a pick or lemon twist.</li>
+                            </ol>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Recipe 18 (Whiskey) -->
+                <article class="recipe-card" data-spirit="whiskey" title="Highland Highball recipe card">
+                    <div class="recipe-img-container">
+                        <img src="https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?auto=format&fit=crop&w=700&q=80" alt="Highland Highball whiskey cocktail">
+                        <span class="recipe-badge">Sleek & Effervescent</span>
+                    </div>
+                    <div class="recipe-info">
+                        <h3>Highland Highball</h3>
+                        <div class="recipe-meta">
+                            <span>⏱️ 4 Mins</span>
+                            <span>🥃 Easy</span>
+                            <span>🍹 Highball Glass</span>
+                        </div>
+                        <div class="ingredients-list">
+                            <h4>Ingredients</h4>
+                            <ul>
+                                <li>50ml Devlin Blended Whiskey</li>
+                                <li>120ml Premium Club Soda</li>
+                                <li>Lemon twist & rosemary sprig</li>
+                                <li>Highball clear ice columns</li>
+                            </ul>
+                        </div>
+                        <div class="instructions-list">
+                            <h4>Preparation</h4>
+                            <ol>
+                                <li>Slide clear ice columns into a tall highball glass.</li>
+                                <li>Pour Devlin Blended Whiskey over the ice blocks.</li>
+                                <li>Top slowly with cold, sparkling club soda down the bar spoon.</li>
+                                <li>Stir once very gently. Express lemon peel, drop in twist.</li>
+                            </ol>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Recipe 19 (Whiskey) -->
+                <article class="recipe-card" data-spirit="whiskey" title="The Whiskey Smash recipe card">
+                    <div class="recipe-img-container">
+                        <img src="https://images.unsplash.com/photo-1551538827-9c037cb4f32a?auto=format&fit=crop&w=700&q=80" alt="Whiskey Smash citrus whiskey cocktail">
+                        <span class="recipe-badge">Tangy & Minty</span>
+                    </div>
+                    <div class="recipe-info">
+                        <h3>The Whiskey Smash</h3>
+                        <div class="recipe-meta">
+                            <span>⏱️ 6 Mins</span>
+                            <span>🍋 Medium</span>
+                            <span>🥃 Rocks Glass</span>
+                        </div>
+                        <div class="ingredients-list">
+                            <h4>Ingredients</h4>
+                            <ul>
+                                <li>60ml Devlin Blended Whiskey</li>
+                                <li>3 fresh lemon wedges</li>
+                                <li>15ml Rich simple syrup</li>
+                                <li>8-10 fresh mint leaves</li>
+                                <li>Crushed ice & mint crown</li>
+                            </ul>
+                        </div>
+                        <div class="instructions-list">
+                            <h4>Preparation</h4>
+                            <ol>
+                                <li>Muddle the lemon wedges and simple syrup at the bottom of the shaker.</li>
+                                <li>Add the mint leaves and press very gently.</li>
+                                <li>Add Devlin Whiskey and a handful of ice cubes, shake vigorously.</li>
+                                <li>Double strain into a rocks glass packed with crushed ice. Garnish with a mint crown.</li>
+                            </ol>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Recipe 20 (Rum) -->
+                <article class="recipe-card" data-spirit="rum" title="Cubana Cuba Libre recipe card">
+                    <div class="recipe-img-container">
+                        <img src="https://images.unsplash.com/photo-1532634922-8fe0b757fb13?auto=format&fit=crop&w=700&q=80" alt="Cuba Libre rum cola cocktail">
+                        <span class="recipe-badge">Classic Standard</span>
+                    </div>
+                    <div class="recipe-info">
+                        <h3>Cubana Cuba Libre</h3>
+                        <div class="recipe-meta">
+                            <span>⏱️ 4 Mins</span>
+                            <span>🍹 Easy</span>
+                            <span>🍹 Highball Glass</span>
+                        </div>
+                        <div class="ingredients-list">
+                            <h4>Ingredients</h4>
+                            <ul>
+                                <li>50ml Cubana Rum Gold (or Smooth)</li>
+                                <li>120ml Premium Coca-Cola</li>
+                                <li>2 fresh lime wedges</li>
+                                <li>Large ice blocks</li>
+                            </ul>
+                        </div>
+                        <div class="instructions-list">
+                            <h4>Preparation</h4>
+                            <ol>
+                                <li>Squeeze the juice of two lime wedges into a tall highball glass.</li>
+                                <li>Fill the glass completely with large ice cubes.</li>
+                                <li>Pour the gold Cubana Rum and fill to the brim with cola.</li>
+                                <li>Stir gently once with a bar spoon and drop in a lime wedge.</li>
+                            </ol>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Recipe 21 (Other) -->
+                <article class="recipe-card" data-spirit="other" title="Luxury Ouzo Lemonade recipe card">
+                    <div class="recipe-img-container">
+                        <img src="https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?auto=format&fit=crop&w=700&q=80" alt="Luxury Ouzo Lemonade cocktail">
+                        <span class="recipe-badge">Greek Heritage</span>
+                    </div>
+                    <div class="recipe-info">
+                        <h3>Luxury Ouzo Lemonade</h3>
+                        <div class="recipe-meta">
+                            <span>⏱️ 5 Mins</span>
+                            <span>🍹 Easy</span>
+                            <span>🍹 Highball Glass</span>
+                        </div>
+                        <div class="ingredients-list">
+                            <h4>Ingredients</h4>
+                            <ul>
+                                <li>45ml Mosaic Ouzo</li>
+                                <li>30ml Fresh cloudy lemonade</li>
+                                <li>10ml Cucumber-mint syrup</li>
+                                <li>90ml Soda water</li>
+                                <li>Cucumber ribbon & mint leaves</li>
+                            </ul>
+                        </div>
+                        <div class="instructions-list">
+                            <h4>Preparation</h4>
+                            <ol>
+                                <li>Pour Mosaic Ouzo, cloudy lemonade, and cucumber-mint syrup over ice in a highball glass. Note the beautiful cloudy anise effect.</li>
+                                <li>Top with sparkling soda water.</li>
+                                <li>Stir gently and line the glass inner shell with a cucumber ribbon. Garnish with mint.</li>
+                            </ol>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Recipe 22 (Other) -->
+                <article class="recipe-card" data-spirit="other" title="DRINK Arak Spritz recipe card">
+                    <div class="recipe-img-container">
+                        <img src="https://images.unsplash.com/photo-1551024709-8f23befc6f87?auto=format&fit=crop&w=700&q=80" alt="Arak Spritz cocktail">
+                        <span class="recipe-badge">Levantine Anise</span>
+                    </div>
+                    <div class="recipe-info">
+                        <h3>DRINK Arak Spritz</h3>
+                        <div class="recipe-meta">
+                            <span>⏱️ 5 Mins</span>
+                            <span>🍹 Easy</span>
+                            <span>🥂 Wine Glass</span>
+                        </div>
+                        <div class="ingredients-list">
+                            <h4>Ingredients</h4>
+                            <ul>
+                                <li>35ml Arak Kesrouan</li>
+                                <li>30ml Fresh pink grapefruit juice</li>
+                                <li>15ml Honey syrup</li>
+                                <li>90ml Sparkling water</li>
+                                <li>Grapefruit peel & mint sprig</li>
+                            </ul>
+                        </div>
+                        <div class="instructions-list">
+                            <h4>Preparation</h4>
+                            <ol>
+                                <li>In a wine glass filled with fresh ice blocks, stir the Arak Kesrouan, grapefruit juice, and honey syrup together.</li>
+                                <li>Top with highly carbonated ice-cold sparkling water.</li>
+                                <li>Express and drop in a pink grapefruit peel. Garnish with mint.</li>
+                            </ol>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Recipe 23 (Other) -->
+                <article class="recipe-card" data-spirit="other" title="Mastiha & Tonic recipe card">
+                    <div class="recipe-img-container">
+                        <img src="https://images.unsplash.com/photo-1556679343-c7306c1976bc?auto=format&fit=crop&w=700&q=80" alt="Mastiha & Tonic cocktail">
+                        <span class="recipe-badge">Botanical Magic</span>
+                    </div>
+                    <div class="recipe-info">
+                        <h3>Mastiha & Tonic</h3>
+                        <div class="recipe-meta">
+                            <span>⏱️ 5 Mins</span>
+                            <span>🌿 Easy</span>
+                            <span>🥂 Copa Glass</span>
+                        </div>
+                        <div class="ingredients-list">
+                            <h4>Ingredients</h4>
+                            <ul>
+                                <li>50ml Skinos Mastiha Spirit</li>
+                                <li>120ml Premium botanic tonic water</li>
+                                <li>Fresh cucumber ribbon</li>
+                                <li>Rosemary sprig & lemon wheel</li>
+                            </ul>
+                        </div>
+                        <div class="instructions-list">
+                            <h4>Preparation</h4>
+                            <ol>
+                                <li>Fill a large copa glass with premium high-density ice blocks.</li>
+                                <li>Pour the sweet, herbal Skinos Mastiha spirit over the ice.</li>
+                                <li>Top slowly with premium botanical tonic water.</li>
+                                <li>Garnish with a fresh cucumber ribbon, lemon wheel, and a sprig of fresh rosemary.</li>
+                            </ol>
+                        </div>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+
+        <!-- 2. Wines Section -->
+        <section class="journal-section" id="section-wines" style="display: none;" title="Sommelier Wine Selection & Food Pairing Guide">
+            <div class="wine-guide-container">
+                
+                <!-- Red Wine -->
+                <article class="wine-type-section" title="Sommelier Red Wine Selection Guide">
+                    <div class="wine-type-info">
+                        <div class="subtitle">Rich & Full-Bodied</div>
+                        <h3 class="red-title">Vintage Red Wines</h3>
+                        <p>Red wines derive their robust structure, deep ruby colors, and complex tannins from fermenting together with the dark grape skins. Standard varieties like Cabernet Sauvignon, Merlot, and Syrah (e.g., our esteemed Chateau de Grandville, Grand Marquis, and Beausoleil Merlot) exhibit rich flavors of dark cherries, oak, and spices. Select a fine red wine for premium, intimate dinners, celebration events, and cooler evenings.</p>
+                        <div class="pairing-box">
+                            <h4>Sommelier Recommended Pairings</h4>
+                            <p>Pairs outstandingly with char-grilled ribeye steak, roasted lamb chops with fresh herbs, smoked beef sliders, rich tomato pasta, gourmet dark chocolates, and roasted salted cashews or smoked almonds from the DRINK Roastery.</p>
+                        </div>
+                    </div>
+                    <div class="wine-type-visual">
+                        <img src="https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?auto=format&fit=crop&w=700&q=80" alt="Vintage Red Wine cellared bottle and filled glass">
+                        <div class="wine-type-visual-overlay"></div>
+                    </div>
+                </article>
+
+                <!-- White Wine (Fixed Image URL!) -->
+                <article class="wine-type-section reverse" title="Sommelier White Wine Selection Guide">
+                    <div class="wine-type-visual">
+                        <img src="https://images.unsplash.com/photo-1584916201218-f4242ceb4809?auto=format&fit=crop&w=700&q=80" alt="Crisp White Wine bottle and glass chilled on coast">
+                        <div class="wine-type-visual-overlay"></div>
+                    </div>
+                    <div class="wine-type-info">
+                        <div class="subtitle">Crisp & Refreshing</div>
+                        <h3 class="white-title">Crisp White Wines</h3>
+                        <p>White wines are fermented solely with pressed juice, bypassing skin contact to preserve a vibrant, bright yellow hues, crisp acidity, and refreshing floral or citrus notes. Selections like Chardonnay and Pinot Blanc (e.g. Cape Bay Chardonnay or Grand Marquis Pinot Blanc) bring alive hints of apples, lemons, and minerals. Perfect for hot beach days, sun-drenched lunches, or a crisp evening wind on the Alexandria coast.</p>
+                        <div class="pairing-box">
+                            <h4>Sommelier Recommended Pairings</h4>
+                            <p>Best enjoyed alongside freshly caught Mediterranean grilled sea bass, garlic lemon butter prawns, baked salmon, fresh green salads, goat cheese platters, salted almonds, and lightly toasted pita crackers.</p>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Rosé Wine -->
+                <article class="wine-type-section" title="Sommelier Rosé Wine Selection Guide">
+                    <div class="wine-type-info">
+                        <div class="subtitle">Vibrant & Playful</div>
+                        <h3 class="rose-title">Vibrant Rosé Wines</h3>
+                        <p>Rosé wines capture the best of both worlds through a brief, controlled maceration with grape skins (usually only a few hours) to achieve a beautiful pink gradient. Offering a playful balance of red berry fruitiness and clean, refreshing acidity, bottles like Obelisk Rosetta Rose and Omar Khayyam Rose are exceptionally versatile, easy-drinking, and elegant. Select a rosé wine to add a vibrant spark to social gatherings and sunsets.</p>
+                        <div class="pairing-box">
+                            <h4>Sommelier Recommended Pairings</h4>
+                            <p>Complements light Mediterranean tapas, prosciutto, smoked salmon rolls, grilled chicken skewers, fresh strawberries, feta and watermelon salads, salted roasted pistachios, and gourmet white chocolate truffles.</p>
+                        </div>
+                    </div>
+                    <div class="wine-type-visual">
+                        <img src="https://images.unsplash.com/photo-1553184920-f9e47c7ae741?auto=format&fit=crop&w=700&q=80" alt="Vibrant Rose Wine bottle and glass at sunset">
+                        <div class="wine-type-visual-overlay"></div>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+    </main>
+
+    <footer title="DRINK Storefront footer copyright notice and terms">
+        <div class="footer-links">
+            <a href="about.html">About Us</a>
+            <a href="contact.html">Contact Us</a>
+        </div>
+        <p>&copy; 2026 DRINK. All rights reserved. Not for online sale.</p>
+    </footer>
+
+    <script>
+        function switchTab(tab) {
+            const recipesSection = document.getElementById('section-recipes');
+            const winesSection = document.getElementById('section-wines');
+            const btnRecipes = document.getElementById('btn-recipes');
+            const btnWines = document.getElementById('btn-wines');
+
+            if (tab === 'recipes') {
+                recipesSection.style.display = 'block';
+                winesSection.style.display = 'none';
+                btnRecipes.classList.add('active');
+                btnWines.classList.remove('active');
+            } else {
+                recipesSection.style.display = 'none';
+                winesSection.style.display = 'block';
+                btnRecipes.classList.remove('active');
+                btnWines.classList.add('active');
+            }
+        }
+
+        function filterSpirit(spirit) {
+            const cards = document.querySelectorAll('.recipe-card');
+            const buttons = document.querySelectorAll('.spirit-btn');
+            
+            // Update active state of buttons
+            buttons.forEach(btn => {
+                const btnText = btn.textContent.toLowerCase();
+                if ((spirit === 'all' && btnText.includes('all')) || btnText.includes(spirit)) {
+                    btn.classList.add('active');
+                } else {
+                    btn.classList.remove('active');
+                }
+            });
+
+            // Filter cards with smooth fade transition
+            cards.forEach(card => {
+                const cardSpirit = card.getAttribute('data-spirit');
+                if (spirit === 'all' || cardSpirit === spirit) {
+                    card.style.display = 'block';
+                    setTimeout(() => {
+                        card.style.opacity = '1';
+                        card.style.transform = 'scale(1)';
+                    }, 50);
+                } else {
+                    card.style.opacity = '0';
+                    card.style.transform = 'scale(0.95)';
+                    setTimeout(() => {
+                        card.style.display = 'none';
+                    }, 300);
+                }
+            });
+        }
+    </script>
+    <script src="js/app.js"></script>
+</body>
+</html>
