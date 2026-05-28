@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catalog Portal | Drink</title>
+    <meta name="description" content="Drink - Browse our complete collections of premium wines, select beers, luxury spirits, snacks, and more.">
+    <meta property="og:title" content="Catalog Portal | Drink">
+    <meta property="og:description" content="Browse our complete collections of premium wines, select beers, luxury spirits, snacks, and more.">
+    <meta property="og:image" content="https://rasenrengan.github.io/beverage-catalog/images/logo.png">
+    <meta property="og:url" content="https://rasenrengan.github.io/beverage-catalog/catalog.html">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="global-banner">
+        <img src="images/banner.png" alt="DRINK Banner">
+    </div>
+    <header class="navbar">
+        <div class="logo"><a href="index.html"><img src="images/logo.png" alt="DRINK Logo"></a></div>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="catalog.html" class="active">Catalog</a>
+            <a href="blog.html">Journal</a>
+        </nav>
+        <div class="nav-search">
+            <input type="text" id="global-search-input" placeholder="Search products...">
+            <button id="global-search-btn">🔍</button>
+        </div>
+    </header>
+
+    <main class="category-portal">
+        <div class="catalog-header" style="text-align: center; margin-bottom: 40px;">
+            <h1 id="portal-main-title" style="font-size: 3rem; margin-bottom: 10px; background: linear-gradient(135deg, var(--text-main), var(--accent)); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">DRINK Collections</h1>
+            <p id="portal-main-subtitle" style="color: var(--text-muted); font-size: 1.1rem; font-weight: 300; letter-spacing: 0.5px;">Select a premium collection to browse our exclusive catalog selection.</p>
+        </div>
+
+        <!-- Search Results View (Hidden by default) -->
+        <div id="portal-search-results" style="display: none; margin-top: 40px; margin-bottom: 60px;">
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 25px; border-bottom: 2px solid var(--accent); padding-bottom: 15px;">
+                <h2 id="search-results-title" style="font-size: 2rem; color: var(--text-main); margin: 0; font-weight: 600;">Search Results</h2>
+                <a href="catalog.html" style="color: var(--accent); text-decoration: none; font-weight: 600; font-size: 0.95rem; text-transform: uppercase; letter-spacing: 1px; border: 1px solid rgba(212, 175, 55, 0.3); padding: 8px 18px; border-radius: 20px; background: rgba(212, 175, 55, 0.05); transition: all 0.3s ease;">← Back to Hub</a>
+            </div>
+            <div class="products-grid" id="products-grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 30px;">
+                <!-- Filtered search cards loaded here -->
+            </div>
+        </div>
+
+        <div class="portal-grid" id="portal-grid">
+            <!-- 1. Wines -->
+            <a href="wine.html" class="portal-card">
+                <div class="portal-card-bg" style="background-image: url('https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?auto=format&fit=crop&w=700&q=80');"></div>
+                <div class="portal-card-overlay"></div>
+                <div class="portal-card-content">
+                    <h2>Premium Wines</h2>
+                    <p>Vintage cellars, sparkling reds & fine whites</p>
+                </div>
+            </a>
+
+            <!-- 2. Spirits -->
+            <a href="spirits.html" class="portal-card">
+                <div class="portal-card-bg" style="background-image: url('images/categories/spirits.webp');"></div>
+                <div class="portal-card-overlay"></div>
+                <div class="portal-card-content">
+                    <h2>Luxury Spirits</h2>
+                    <p>Sun-cured tequilas, smooth whiskey, and master vodkas</p>
+                </div>
+            </a>
+
+            <!-- 3. Beers -->
+            <a href="beer.html" class="portal-card">
+                <div class="portal-card-bg" style="background-image: url('images/categories/beer.webp');"></div>
+                <div class="portal-card-overlay"></div>
+                <div class="portal-card-content">
+                    <h2>Craft Beers</h2>
+                    <p>Refreshing crisp cans, imported draft bottles & stouts</p>
+                </div>
+            </a>
+
+            <!-- 4. RTDs -->
+            <a href="rtds.html" class="portal-card">
+                <div class="portal-card-bg" style="background-image: url('images/categories/rtds.webp');"></div>
+                <div class="portal-card-overlay"></div>
+                <div class="portal-card-content">
+                    <h2>RTDs & Premixes</h2>
+                    <p>Chilled cocktail freezers, gin & tonic mixers</p>
+                </div>
+            </a>
+
+            <!-- 5. Snacks -->
+            <a href="snacks.html" class="portal-card">
+                <div class="portal-card-bg" style="background-image: url('images/categories/snacks.webp');"></div>
+                <div class="portal-card-overlay"></div>
+                <div class="portal-card-content">
+                    <h2>Gourmet Snacks</h2>
+                    <p>Truffle chips, dry-roasted cashews, cheese pairings</p>
+                </div>
+            </a>
+
+            <!-- 6. Soft Drinks -->
+            <a href="soft-drinks.html" class="portal-card">
+                <div class="portal-card-bg" style="background-image: url('https://images.unsplash.com/photo-1622483767028-3f66f32aef97?auto=format&fit=crop&w=700&q=80');"></div>
+                <div class="portal-card-overlay"></div>
+                <div class="portal-card-content">
+                    <h2>Premium Soft Drinks</h2>
+                    <p>Artisanal ginger beers, natural botanic tonic mixers</p>
+                </div>
+            </a>
+
+            <!-- 7. Tobacco -->
+            <a href="tobacco.html" class="portal-card" style="grid-column: 1 / -1;">
+                <div class="portal-card-bg" style="background-image: url('images/categories/tobacco.webp');"></div>
+                <div class="portal-card-overlay"></div>
+                <div class="portal-card-content">
+                    <h2>Select Tobacco</h2>
+                    <p>Premium gold blends, fine cuts, and cigar selections</p>
+                </div>
+            </a>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-links">
+            <a href="about.html">About Us</a>
+            <a href="contact.html">Contact Us</a>
+        </div>
+        <p>&copy; 2026 DRINK. All rights reserved. Not for online sale.</p>
+    </footer>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
