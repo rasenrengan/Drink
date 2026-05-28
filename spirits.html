@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luxury Spirits Collection | Drink</title>
+    <meta name="description" content="Browse our premium selection of luxury spirits including aged scotch whiskies, fine vodkas, and select tequilas at Drink.">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body data-category="Spirits">
+    <div class="global-banner">
+        <img src="images/banner.png" alt="DRINK Banner">
+    </div>
+    <header class="navbar">
+        <div class="logo"><a href="index.html"><img src="images/logo.png" alt="DRINK Logo"></a></div>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="catalog.html" class="active">Catalog</a>
+            <a href="blog.html">Journal</a>
+        </nav>
+        <div class="nav-search">
+            <input type="text" id="global-search-input" placeholder="Search products...">
+            <button id="global-search-btn">🔍</button>
+        </div>
+    </header>
+
+    <!-- Ken Burns Live-Moving Background Parallax Hero -->
+    <div class="category-hero">
+        <div class="category-hero-bg" style="background-image: url('images/categories/spirits.webp');"></div>
+        <div class="category-hero-overlay"></div>
+        <div class="category-hero-content">
+            <h1>Luxury Spirits</h1>
+            <p>Single malts, master brandies, premium vodkas, and golden tequilas.</p>
+        </div>
+    </div>
+
+    <!-- Phone-first Horizontal Swipe Category Navigation Bar -->
+    <div class="category-nav-bar">
+        <div class="category-nav-container">
+            <div class="category-nav-list">
+                <a href="catalog.html" class="category-nav-item">Hub</a>
+                <a href="wine.html" class="category-nav-item">🍷 Wine</a>
+                <a href="spirits.html" class="category-nav-item active">🥃 Spirits</a>
+                <a href="beer.html" class="category-nav-item">🍺 Beer</a>
+                <a href="rtds.html" class="category-nav-item">🍹 RTDs</a>
+                <a href="snacks.html" class="category-nav-item">🥜 Snacks</a>
+                <a href="soft-drinks.html" class="category-nav-item">🥤 Soft Drinks</a>
+                <a href="tobacco.html" class="category-nav-item">🚬 Tobacco</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Products Grid Section -->
+    <main class="category-products-section">
+        <div class="category-products-grid" id="category-products-grid">
+            <!-- Loaded dynamically by JS -->
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-links">
+            <a href="about.html">About Us</a>
+            <a href="contact.html">Contact Us</a>
+        </div>
+        <p>&copy; 2026 DRINK. All rights reserved. Not for online sale.</p>
+    </footer>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
