@@ -1,0 +1,982 @@
+{
+    "deleted_count": 5,
+    "added_count": 1,
+    "modified_count": 90,
+    "deleted": [
+        {
+            "id": "3",
+            "name": "Heineken Bottle 330ml (2)",
+            "category": "Beer",
+            "price": 55.0,
+            "image": "images/Beers/Heineken Bottle 330ml (2).png",
+            "description": "Heineken Bottle 330ml (2) is a testament to quality and tradition. A refreshing, crisp brew with a clean finish and balanced bitterness. Enjoy responsibly and elevate your next celebration with this exquisite choice.",
+            "alcohol": "5%"
+        },
+        {
+            "id": "31",
+            "name": "Butler's XXX Gin Lime 275ml",
+            "category": "RTDs",
+            "price": 107,
+            "image": "images/spirit/RTD/Butler's XXX Gin Lime 275ml.png",
+            "description": "Butler's XXX Gin Lime 275ml is a testament to quality and tradition. A convenient, perfectly mixed cocktail ready to enjoy. Enjoy responsibly and elevate your next celebration with this exquisite choice.",
+            "alcohol": "15%"
+        },
+        {
+            "id": "33",
+            "name": "ID Double Edge Peach",
+            "category": "RTDs",
+            "price": 65.0,
+            "image": "images/spirit/RTD/ID Double Edge Peach.png",
+            "description": "ID Double Edge Peach is a testament to quality and tradition. Chill and serve for an instant premium bar experience. Enjoy responsibly and elevate your next celebration with this exquisite choice.",
+            "alcohol": "10%"
+        },
+        {
+            "id": "102",
+            "name": "Beausoleil White Wine 187ml",
+            "category": "Wine",
+            "price": 396,
+            "image": "images/wine/white/Beausoleil White Wine 187ml.jpg",
+            "description": "Beausoleil White Wine 187ml is a testament to quality and tradition. Crisp and refreshing with hints of citrus and a floral bouquet. Enjoy responsibly and elevate your next celebration with this exquisite choice.",
+            "alcohol": "12.5%"
+        },
+        {
+            "id": "115",
+            "name": "Shahrazade White Wine 187ml",
+            "category": "Wine",
+            "price": 453,
+            "image": "images/wine/white/Shahrazade White Wine 187ml.jpg",
+            "description": "Shahrazade White Wine 187ml is a testament to quality and tradition. A complex blend offering layers of oak, vanilla, and spice. Enjoy responsibly and elevate your next celebration with this exquisite choice.",
+            "alcohol": "12.5%"
+        }
+    ],
+    "added": [
+        {
+            "ID": "new",
+            "Category": "Beer",
+            "Name": "Sakara Can 500ml",
+            "Price (EGP)": "80",
+            "Alcohol Percentage": "15%",
+            "ON SALE OR OFFER": "",
+            "notes": "",
+            "Description": ""
+        }
+    ],
+    "modified": [
+        {
+            "id": "2",
+            "name": "Heineken Bottle 330ml (1)",
+            "changes": {
+                "name": [
+                    "Heineken Bottle 330ml (1)",
+                    "Heineken Bottle 330ml"
+                ]
+            }
+        },
+        {
+            "id": "6",
+            "name": "Meister Max Bottle 330ml",
+            "changes": {
+                "price": [
+                    46,
+                    55.0
+                ]
+            }
+        },
+        {
+            "id": "8",
+            "name": "Sakara El King Bottle 500ml",
+            "changes": {
+                "price": [
+                    81,
+                    70.0
+                ],
+                "alcohol": [
+                    "4.5%",
+                    "10%"
+                ]
+            }
+        },
+        {
+            "id": "9",
+            "name": "Sakara ElKing Can 500ml",
+            "changes": {
+                "price": [
+                    46,
+                    70.0
+                ],
+                "alcohol": [
+                    "4.5%",
+                    "10%"
+                ]
+            }
+        },
+        {
+            "id": "10",
+            "name": "Sakara Gold Bottle 500ml",
+            "changes": {
+                "price": [
+                    50.0,
+                    60.0
+                ]
+            }
+        },
+        {
+            "id": "11",
+            "name": "Sakara king Can 500ml",
+            "changes": {
+                "price": [
+                    51,
+                    80.0
+                ],
+                "alcohol": [
+                    "4.5%",
+                    "15%"
+                ]
+            }
+        },
+        {
+            "id": "12",
+            "name": "Sol Bottle 330ml",
+            "changes": {
+                "price": [
+                    59,
+                    55.0
+                ]
+            }
+        },
+        {
+            "id": "13",
+            "name": "Stella 330ml Bottle",
+            "changes": {
+                "price": [
+                    65,
+                    50.0
+                ]
+            }
+        },
+        {
+            "id": "16",
+            "name": "Stella One Way Bottle 500ml",
+            "changes": {
+                "price": [
+                    50.0,
+                    60.0
+                ]
+            }
+        },
+        {
+            "id": "18",
+            "name": "Champollion Brandy 250ml",
+            "changes": {
+                "price": [
+                    1080,
+                    75.0
+                ]
+            }
+        },
+        {
+            "id": "19",
+            "name": "Champollion Brandy 500ml",
+            "changes": {
+                "price": [
+                    865,
+                    120.0
+                ]
+            }
+        },
+        {
+            "id": "20",
+            "name": "Yanni Brandy 1L",
+            "changes": {
+                "price": [
+                    957,
+                    175.0
+                ]
+            }
+        },
+        {
+            "id": "21",
+            "name": "Butler’s Gin 750ml",
+            "changes": {
+                "price": [
+                    1293,
+                    525.0
+                ]
+            }
+        },
+        {
+            "id": "23",
+            "name": "Mosaic Gin The Bartender Edition 750ml",
+            "changes": {
+                "price": [
+                    959,
+                    220.0
+                ]
+            }
+        },
+        {
+            "id": "24",
+            "name": "Yanni Gin 1L",
+            "changes": {
+                "price": [
+                    409,
+                    175.0
+                ]
+            }
+        },
+        {
+            "id": "25",
+            "name": "BUTLERS Apple Cin 10%",
+            "changes": {
+                "price": [
+                    56,
+                    60.0
+                ]
+            }
+        },
+        {
+            "id": "26",
+            "name": "Blue40 Freeze Original",
+            "changes": {
+                "price": [
+                    67,
+                    60.0
+                ]
+            }
+        },
+        {
+            "id": "27",
+            "name": "Blue40 Freeze Pink Berry",
+            "changes": {
+                "price": [
+                    83,
+                    60.0
+                ]
+            }
+        },
+        {
+            "id": "28",
+            "name": "Blue40 Freeze Sky Colada",
+            "changes": {
+                "price": [
+                    78,
+                    60.0
+                ]
+            }
+        },
+        {
+            "id": "29",
+            "name": "Butler's Gin Lemon Mint 275ml",
+            "changes": {
+                "price": [
+                    58,
+                    60.0
+                ]
+            }
+        },
+        {
+            "id": "30",
+            "name": "Butler's XXX Gin Lemon Mint 275ml",
+            "changes": {
+                "price": [
+                    82,
+                    65.0
+                ]
+            }
+        },
+        {
+            "id": "32",
+            "name": "ID Double Edge Energy 275ml",
+            "changes": {
+                "price": [
+                    65.0,
+                    60.0
+                ]
+            }
+        },
+        {
+            "id": "34",
+            "name": "ID Double Edge Watermelon 275ml",
+            "changes": {
+                "price": [
+                    65.0,
+                    60.0
+                ]
+            }
+        },
+        {
+            "id": "35",
+            "name": "ID XXX Cherry 275ml",
+            "changes": {
+                "price": [
+                    70.0,
+                    65.0
+                ]
+            }
+        },
+        {
+            "id": "36",
+            "name": "ID XXXX Mango 275ml",
+            "changes": {
+                "price": [
+                    80.0,
+                    75.0
+                ]
+            }
+        },
+        {
+            "id": "37",
+            "name": "ID XXXX Pineapple & Coconut 275ml",
+            "changes": {
+                "price": [
+                    80.0,
+                    75.0
+                ]
+            }
+        },
+        {
+            "id": "38",
+            "name": "ID XXXX Watermelon 275ml",
+            "changes": {
+                "price": [
+                    80.0,
+                    75.0
+                ]
+            }
+        },
+        {
+            "id": "39",
+            "name": "Watermelon 15%",
+            "changes": {
+                "price": [
+                    70.0,
+                    65.0
+                ]
+            }
+        },
+        {
+            "id": "40",
+            "name": "Skinos Mastiha Spirit 350ml",
+            "changes": {
+                "price": [
+                    950,
+                    1750.0
+                ]
+            }
+        },
+        {
+            "id": "41",
+            "name": "Tequila Malvado Gold 750ml",
+            "changes": {
+                "price": [
+                    1178,
+                    250.0
+                ]
+            }
+        },
+        {
+            "id": "42",
+            "name": "Yanni Tequila 1L",
+            "changes": {
+                "price": [
+                    1077,
+                    175.0
+                ]
+            }
+        },
+        {
+            "id": "45",
+            "name": "Black Rhino Whisky 750ml",
+            "changes": {
+                "price": [
+                    250.0,
+                    500.0
+                ]
+            }
+        },
+        {
+            "id": "46",
+            "name": "Devlin Blended Whiskey 750ml",
+            "changes": {
+                "price": [
+                    350.0,
+                    550.0
+                ]
+            }
+        },
+        {
+            "id": "47",
+            "name": "Devlin Whiskey 750ml",
+            "changes": {
+                "price": [
+                    350.0,
+                    850.0
+                ]
+            }
+        },
+        {
+            "id": "48",
+            "name": "Excellence Whisky 250ml",
+            "changes": {
+                "price": [
+                    1044,
+                    75.0
+                ]
+            }
+        },
+        {
+            "id": "49",
+            "name": "Excellence Whisky 500ml",
+            "changes": {
+                "price": [
+                    1628,
+                    120.0
+                ]
+            }
+        },
+        {
+            "id": "50",
+            "name": "Mosaic Whisky The Bartender Edition 750ml",
+            "changes": {
+                "price": [
+                    1572,
+                    220.0
+                ]
+            }
+        },
+        {
+            "id": "51",
+            "name": "Yanni Whisky 1L",
+            "changes": {
+                "price": [
+                    520,
+                    175.0
+                ]
+            }
+        },
+        {
+            "id": "52",
+            "name": "Arak Kesrouan 500ml",
+            "changes": {
+                "price": [
+                    220.0,
+                    300.0
+                ]
+            }
+        },
+        {
+            "id": "53",
+            "name": "{08B71497-789B-4980-BB4B-7AA246E12918}",
+            "changes": {
+                "price": [
+                    960,
+                    null
+                ]
+            }
+        },
+        {
+            "id": "54",
+            "name": "Mosaic Cognac Style 750ml",
+            "changes": {
+                "price": [
+                    1671,
+                    375.0
+                ]
+            }
+        },
+        {
+            "id": "55",
+            "name": "Greeco Ouzo 250ml",
+            "changes": {
+                "price": [
+                    85.0,
+                    75.0
+                ]
+            }
+        },
+        {
+            "id": "56",
+            "name": "Greeco Ouzo 500ml",
+            "changes": {
+                "price": [
+                    130.0,
+                    120.0
+                ]
+            }
+        },
+        {
+            "id": "57",
+            "name": "Mosaic Ouzo The Bartender Edition 750ml",
+            "changes": {
+                "price": [
+                    1283,
+                    220.0
+                ]
+            }
+        },
+        {
+            "id": "58",
+            "name": "Yanni Ouzo 1L",
+            "changes": {
+                "price": [
+                    1027,
+                    175.0
+                ]
+            }
+        },
+        {
+            "id": "59",
+            "name": "Mosaic Rum Gold The Bartender Edition 750ml",
+            "changes": {
+                "price": [
+                    403,
+                    220.0
+                ]
+            }
+        },
+        {
+            "id": "60",
+            "name": "Mosaic Rum White The Bartender Edition 750ml",
+            "changes": {
+                "price": [
+                    1069,
+                    220.0
+                ]
+            }
+        },
+        {
+            "id": "61",
+            "name": "Rum Cubana 750ml",
+            "changes": {
+                "price": [
+                    818,
+                    380.0
+                ]
+            }
+        },
+        {
+            "id": "62",
+            "name": "Yanni Rum 1L",
+            "changes": {
+                "price": [
+                    1666,
+                    175.0
+                ]
+            }
+        },
+        {
+            "id": "63",
+            "name": "99 Vodka 250ml",
+            "changes": {
+                "price": [
+                    1698,
+                    75.0
+                ]
+            }
+        },
+        {
+            "id": "64",
+            "name": "99 Vodka 500ml",
+            "changes": {
+                "price": [
+                    511,
+                    120.0
+                ]
+            }
+        },
+        {
+            "id": "65",
+            "name": "BLUE 40 Citrus Vodka 38%",
+            "changes": {
+                "price": [
+                    976,
+                    440.0
+                ]
+            }
+        },
+        {
+            "id": "66",
+            "name": "BLUE 40 Raspberry 38%",
+            "changes": {
+                "price": [
+                    1571,
+                    440.0
+                ]
+            }
+        },
+        {
+            "id": "67",
+            "name": "ID Vodka 350ml",
+            "changes": {
+                "price": [
+                    150.0,
+                    130.0
+                ]
+            }
+        },
+        {
+            "id": "69",
+            "name": "ID Vodka Blue40 750ml",
+            "changes": {
+                "price": [
+                    250.0,
+                    440.0
+                ]
+            }
+        },
+        {
+            "id": "70",
+            "name": "Mosaic Vodka The Bartender Edition 750ml",
+            "changes": {
+                "price": [
+                    1099,
+                    220.0
+                ]
+            }
+        },
+        {
+            "id": "72",
+            "name": "Yanni Vodka 1L",
+            "changes": {
+                "price": [
+                    989,
+                    175.0
+                ]
+            }
+        },
+        {
+            "id": "73",
+            "name": "Baila Rose Wine 750ml Discovery Vineyards Range",
+            "changes": {
+                "price": [
+                    274,
+                    525.0
+                ]
+            }
+        },
+        {
+            "id": "75",
+            "name": "Lavita Rose Sparkling Wine 750ml",
+            "changes": {
+                "price": [
+                    215,
+                    385.0
+                ]
+            }
+        },
+        {
+            "id": "76",
+            "name": "Le Baron Rose Sparkling Wine 750ml",
+            "changes": {
+                "price": [
+                    423,
+                    750.0
+                ]
+            }
+        },
+        {
+            "id": "78",
+            "name": "Shahrazade Rose Wine 750ml",
+            "changes": {
+                "price": [
+                    260.0,
+                    240.0
+                ]
+            }
+        },
+        {
+            "id": "79",
+            "name": "XO Rose Wine 750ml",
+            "changes": {
+                "price": [
+                    641,
+                    290.0
+                ]
+            }
+        },
+        {
+            "id": "80",
+            "name": "Baila Red Wine 750ml Discovery Vineyards Range",
+            "changes": {
+                "price": [
+                    285,
+                    525.0
+                ]
+            }
+        },
+        {
+            "id": "83",
+            "name": "Chateau Byblos Red Wine 750ml Discovery Vineyards Range",
+            "changes": {
+                "price": [
+                    311,
+                    475.0
+                ]
+            }
+        },
+        {
+            "id": "84",
+            "name": "Chateau de Grandville Red Wine 750ml",
+            "changes": {
+                "price": [
+                    594,
+                    550.0
+                ]
+            }
+        },
+        {
+            "id": "85",
+            "name": "Jardin du Nil Red Wine 750ml",
+            "changes": {
+                "price": [
+                    494,
+                    400.0
+                ]
+            }
+        },
+        {
+            "id": "86",
+            "name": "Nala Red Wine 750ml Discovery Vineyards Range",
+            "changes": {
+                "price": [
+                    366,
+                    575.0
+                ]
+            }
+        },
+        {
+            "id": "87",
+            "name": "Shahrazade Red Wine 750ml",
+            "changes": {
+                "price": [
+                    260.0,
+                    240.0
+                ]
+            }
+        },
+        {
+            "id": "88",
+            "name": "XO Red Wine 750ml",
+            "changes": {
+                "price": [
+                    684,
+                    290.0
+                ]
+            }
+        },
+        {
+            "id": "89",
+            "name": "Aria Dolce",
+            "changes": {
+                "price": [
+                    350,
+                    450.0
+                ]
+            }
+        },
+        {
+            "id": "92",
+            "name": "Lavita Rose Sparkling Wine 750ml",
+            "changes": {
+                "price": [
+                    654,
+                    385.0
+                ]
+            }
+        },
+        {
+            "id": "93",
+            "name": "Lavita White Sparkling Wine 750ml",
+            "changes": {
+                "price": [
+                    366,
+                    385.0
+                ]
+            }
+        },
+        {
+            "id": "94",
+            "name": "Le Baron Rose Sparkling Wine 750ml",
+            "changes": {
+                "price": [
+                    677,
+                    750.0
+                ]
+            }
+        },
+        {
+            "id": "95",
+            "name": "Le Baron White Signature Sparkling Wine 750ml",
+            "changes": {
+                "price": [
+                    850,
+                    750.0
+                ]
+            }
+        },
+        {
+            "id": "96",
+            "name": "Le Baron White Sparkling Wine 750ml",
+            "changes": {
+                "price": [
+                    233,
+                    750.0
+                ]
+            }
+        },
+        {
+            "id": "97",
+            "name": "Valmont Rose Sparkling Wine 750ml",
+            "changes": {
+                "price": [
+                    363,
+                    400.0
+                ]
+            }
+        },
+        {
+            "id": "98",
+            "name": "Valmont White Sparkling Wine 750ml",
+            "changes": {
+                "price": [
+                    395,
+                    400.0
+                ]
+            }
+        },
+        {
+            "id": "99",
+            "name": "Abarka Wine 750ml",
+            "changes": {
+                "price": [
+                    203,
+                    240.0
+                ]
+            }
+        },
+        {
+            "id": "100",
+            "name": "Baila White Wine 750ml Discovery Vineyards Range",
+            "changes": {
+                "price": [
+                    384,
+                    525.0
+                ]
+            }
+        },
+        {
+            "id": "104",
+            "name": "Cape Bay White Wine 750ml",
+            "changes": {
+                "price": [
+                    300.0,
+                    450.0
+                ]
+            }
+        },
+        {
+            "id": "105",
+            "name": "Castello Di Trevi White Wine 750ml",
+            "changes": {
+                "price": [
+                    650,
+                    400.0
+                ]
+            }
+        },
+        {
+            "id": "106",
+            "name": "Chateau Byblos White Wine 750ml Discovery Vineyards Range",
+            "changes": {
+                "price": [
+                    510,
+                    475.0
+                ]
+            }
+        },
+        {
+            "id": "107",
+            "name": "Chateau de Grandville White Wine 750ml",
+            "changes": {
+                "price": [
+                    520,
+                    550.0
+                ]
+            }
+        },
+        {
+            "id": "109",
+            "name": "Jardin du Nil White Wine 750ml",
+            "changes": {
+                "price": [
+                    527,
+                    400.0
+                ]
+            }
+        },
+        {
+            "id": "110",
+            "name": "Lavita White Sparkling Wine 750ml",
+            "changes": {
+                "price": [
+                    297,
+                    385.0
+                ]
+            }
+        },
+        {
+            "id": "111",
+            "name": "Le Baron White Sparkling Wine 750ml",
+            "changes": {
+                "price": [
+                    290,
+                    750.0
+                ]
+            }
+        },
+        {
+            "id": "112",
+            "name": "Nala White Wine 750ml Discovery Vineyards Range",
+            "changes": {
+                "price": [
+                    587,
+                    550.0
+                ]
+            }
+        },
+        {
+            "id": "114",
+            "name": "Shahrazade Abarka Sweet Red Wine 750ml",
+            "changes": {
+                "price": [
+                    260.0,
+                    230.0
+                ]
+            }
+        },
+        {
+            "id": "116",
+            "name": "Shahrazade White Wine 750ml",
+            "changes": {
+                "price": [
+                    260.0,
+                    240.0
+                ]
+            }
+        },
+        {
+            "id": "117",
+            "name": "XO White Wine 750ml",
+            "changes": {
+                "price": [
+                    568,
+                    290.0
+                ],
+                "name": [
+                    "XO White Wine 750ml",
+                    "Shahrazade White Wine 750ml"
+                ]
+            }
+        }
+    ]
+}
