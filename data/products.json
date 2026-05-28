@@ -1,0 +1,1073 @@
+[
+    {
+        "id": "1",
+        "name": "Desperados Can 330ml",
+        "category": "Beer",
+        "price": 55.0,
+        "image": "images/Beers/Desperados Can 330ml.jpg",
+        "description": "Desperados Can 330ml is a testament to quality and tradition. A classic premium brew crafted with the finest hops and barley. Enjoy responsibly and elevate your next celebration with this exquisite choice.",
+        "alcohol": "4.5%"
+    },
+    {
+        "id": "2",
+        "name": "Heineken Bottle 330ml",
+        "category": "Beer",
+        "price": 55.0,
+        "image": "images/Beers/Heineken Bottle 330ml (1).png",
+        "description": "Heineken Bottle 330ml (1) is a testament to quality and tradition. A refreshing, crisp brew with a clean finish and balanced bitterness. Enjoy responsibly and elevate your next celebration with this exquisite choice.",
+        "alcohol": "5%"
+    },
+    {
+        "id": "4",
+        "name": "Heineken Can 330ml",
+        "category": "Beer",
+        "price": 55.0,
+        "image": "images/Beers/Heineken Can 330ml.jpeg",
+        "description": "Heineken Can 330ml is a testament to quality and tradition. A classic premium brew crafted with the finest hops and barley. Enjoy responsibly and elevate your next celebration with this exquisite choice.",
+        "alcohol": "5%"
+    },
+    {
+        "id": "5",
+        "name": "Heineken Can 500ml",
+        "category": "Beer",
+        "price": 70.0,
+        "image": "images/Beers/Heineken Can 500ml.png",
+        "description": "Heineken Can 500ml is a testament to quality and tradition. Light, easily drinkable with subtle citrus notes. Enjoy responsibly and elevate your next celebration with this exquisite choice.",
+        "alcohol": "5%"
+    },
+    {
+        "id": "6",
+        "name": "Meister Max Bottle 330ml",
+        "category": "Beer",
+        "price": 55.0,
+        "image": "images/Beers/Meister Max Bottle 330ml.png",
+        "description": "Meister Max Bottle 330ml is a testament to quality and tradition. Rich and malty with a robust flavor profile and smooth head. Enjoy responsibly and elevate your next celebration with this exquisite choice.",
+        "alcohol": "8%"
+    },
+    {
+        "id": "7",
+        "name": "Meister Max Can 500ml",
+        "category": "Beer",
+        "price": 60.0,
+        "image": "images/Beers/Meister Max Can 500ml.png",
+        "description": "Meister Max Can 500ml is a testament to quality and tradition. A refreshing, crisp brew with a clean finish and balanced bitterness. Enjoy responsibly and elevate your next celebration with this exquisite choice.",
+        "alcohol": "8%"
+    },
+    {
+        "id": "118",
+        "name": "Meister Max Bottle 500ml",
+        "category": "",
+        "price": 65.0,
+        "image": "images/spirit/Meister Max Bottle 500ml.png",
+        "description": "Meister Max Bottle 500ml is a premium  crafted for the discerning palate.",
+        "alcohol": "8%"
+    },
+    {
+        "id": "8",
+        "name": "Sakara El King Bottle 500ml",
+        "category": "Beer",
+        "price": 70.0,
+        "image": "images/Beers/Sakara El King Bottle 500ml.png",
+        "description": "Sakara El King Bottle 500ml is a testament to quality and tradition. Rich and malty with a robust flavor profile and smooth head. Enjoy responsibly and elevate your next celebration with this exquisite choice.",
+        "alcohol": "10%"
+    },
+    {
+        "id": "9",
+        "name": "Sakara ElKing Can 500ml",
+        "category": "Beer",
+        "price": 70.0,
+        "image": "images/Beers/Sakara ElKing Can 500ml.png",
+        "description": "Sakara ElKing Can 500ml is a testament to quality and tradition. A refreshing, crisp brew with a clean finish and balanced bitterness. Enjoy responsibly and elevate your next celebration with this exquisite choice.",
+        "alcohol": "10%"
+    },
+    {
+        "id": "10",
+        "name": "Sakara Gold Bottle 500ml",
+        "category": "Beer",
+        "price": 60.0,
+        "image": "images/Beers/Sakara Gold Bottle 500ml.png",
+        "description": "Sakara Gold Bottle 500ml is a testament to quality and tradition. Light, easily drinkable with subtle citrus notes. Enjoy responsibly and elevate your next celebration with this exquisite choice.",
+        "alcohol": "4%"
+    },
+    {
+        "id": "11",
+        "name": "Sakara king Can 500ml",
+        "category": "Beer",
+        "price": 80.0,
+        "image": "images/Beers/Sakara king Can 500ml.png",
+        "description": "Sakara king Can 500ml is a testament to quality and tradition. A refreshing, crisp brew with a clean finish and balanced bitterness. Enjoy responsibly and elevate your next celebration with this exquisite choice.",
+        "alcohol": "15%"
+    },
+    {
+        "id": "12",
+        "name": "Sol Bottle 330ml",
+        "category": "Beer",
+        "price": 55.0,
+        "image": "images/Beers/Sol Bottle 330ml.jpg",
+        "description": "Sol Bottle 330ml is a testament to quality and tradition. Light, easily drinkable with subtle citrus notes. Enjoy responsibly and elevate your next celebration with this exquisite choice.",
+        "alcohol": "4.5%"
+    },
+    {
+        "id": "119",
+        "name": "Sakara Can 500ml",
+        "category": "Beer",
+        "price": 80.0,
+        "image": "images/Beers/Sakara Can 500ml.png",
+        "description": "Sakara Can 500ml is a premium beer crafted for the discerning palate.",
+        "alcohol": "15%"
+    },
+    {
+        "id": "13",
+        "name": "Stella 330ml Bottle",
+        "category": "Beer",
+        "price": 50.0,
+        "image": "images/Beers/Stella 330ml Bottle.png",
+        "description": "Stella 330ml Bottle is a testament to quality and tradition. A refreshing, crisp brew with a clean finish and balanced bitterness. Enjoy responsibly and elevate your next celebration with this exquisite choice.",
+        "alcohol": "4.5%"
+    },
+    {
+        "id": "14",
+        "name": "Stella Can 330ml",
+        "category": "Beer",
+        "price": 50.0,
+        "image": "images/Beers/Stella Can 330ml.png",
+        "description": "Stella Can 330ml is a testament to quality and tradition. Rich and malty with a robust flavor profile and smooth head. Enjoy responsibly and elevate your next celebration with this exquisite choice.",
+        "alcohol": "4.5%"
+    },
+    {
+        "id": "15",
+        "name": "Stella Can 500ml",
+        "category": "Beer",
+        "price": 60.0,
+        "image": "images/Beers/Stella Can 500ml.png",
+        "description": "Stella Can 500ml is a testament to quality and tradition. Light, easily drinkable with subtle citrus notes. Enjoy responsibly and elevate your next celebration with this exquisite choice.",
+        "alcohol": "4.5%"
+    },
+    {
+        "id": "16",
+        "name": "Stella One Way Bottle 500ml",
+        "category": "Beer",
+        "price": 60.0,
+        "image": "images/Beers/Stella One Way Bottle 500ml.png",
+        "description": "Stella One Way Bottle 500ml is a testament to quality and tradition. A classic premium brew crafted with the finest hops and barley. Enjoy responsibly and elevate your next celebration with this exquisite choice.",
+        "alcohol": "4.5%"
+    },
+    {
+        "id": "17",
+        "name": "Stella Returnable Bottle 500ml",
+        "category": "Beer",
+        "price": 50.0,
+        "image": "images/Beers/Stella Returnable Bottle 500ml.png",
+        "description": "Stella Returnable Bottle 500ml is a testament to quality and tradition. A refreshing, crisp brew with a clean finish and balanced bitterness. Enjoy responsibly and elevate your next celebration with this exquisite choice.",
+        "alcohol": "4.5%"
+    },
+    {
+        "id": "18",
+        "name": "Champollion Brandy 250ml",
+        "category": "Spirits",
+        "price": 75.0,
+        "image": "images/spirit/Brandy/Champollion Brandy 250ml.jpg",
+        "description": "Champollion Brandy 250ml is a testament to quality and tradition. A premium spirit, perfect neat or as the base for exquisite cocktails. Enjoy responsibly and elevate your next celebration with this exquisite choice.",
+        "alcohol": "40%"
+    },
+    {
+        "id": "19",
+        "name": "Champollion Brandy 500ml",
+        "category": "Spirits",
+        "price": 120.0,
+        "image": "images/spirit/Brandy/Champollion Brandy 500ml.jpg",
+        "description": "Champollion Brandy 500ml is a testament to quality and tradition. Rich and warming with notes of caramel, spice, and a hint of smoke. Enjoy responsibly and elevate your next celebration with this exquisite choice.",
+        "alcohol": "40%"
+    },
+    {
+        "id": "20",
+        "name": "Yanni Brandy 1L",
+        "category": "Spirits",
+        "price": 175.0,
+        "image": "images/spirit/Brandy/Yanni Brandy 1L.jpg",
+        "description": "Yanni Brandy 1L is a testament to quality and tradition. A premium spirit, perfect neat or as the base for exquisite cocktails. Enjoy responsibly and elevate your next celebration with this exquisite choice.",
+        "alcohol": "40%"
+    },
+    {
+        "id": "21",
+        "name": "Butler’s Gin 750ml",
+        "category": "Spirits",
+        "price": 525.0,
+        "image": "images/spirit/Gin/Butler’s Gin 750ml.png",
+        "description": "Butler’s Gin 750ml is a testament to quality and tradition. Aged to perfection in oak barrels, delivering a smooth and complex flavor. Enjoy responsibly and elevate your next celebration with this exquisite choice.",
+        "alcohol": "40%"
+    },
+    {
+        "id": "22",
+        "name": "Harry’s Premium Gin 750ml",
+        "category": "Spirits",
+        "price": 500.0,
+        "image": "images/spirit/Gin/Harry’s Premium Gin 750ml.jpg",
+        "description": "Harry’s Premium Gin 750ml is a testament to quality and tradition. Aged to perfection in oak barrels, delivering a smooth and complex flavor. Enjoy responsibly and elevate your next celebration with this exquisite choice.",
+        "alcohol": "40%"
+    },
+    {
+        "id": "23",
+        "name": "Mosaic Gin The Bartender Edition 750ml",
+        "category": "Spirits",
+        "price": 220.0,
+        "image": "images/spirit/Gin/Mosaic Gin The Bartender Edition 750ml.png",
+        "description": "Mosaic Gin The Bartender Edition 750ml is a testament to quality and tradition. Aged to perfection in oak barrels, delivering a smooth and complex flavor. Enjoy responsibly and elevate your next celebration with this exquisite choice.",
+        "alcohol": "40%"
+    },
+    {
+        "id": "24",
+        "name": "Yanni Gin 1L",
+        "category": "Spirits",
+        "price": 175.0,
+        "image": "images/spirit/Gin/Yanni Gin 1L.jpg",
+        "description": "Yanni Gin 1L is a testament to quality and tradition. Aged to perfection in oak barrels, delivering a smooth and complex flavor. Enjoy responsibly and elevate your next celebration with this exquisite choice.",
+        "alcohol": "40%"
+    },
+    {
+        "id": "25",
+        "name": "BUTLERS Apple Cin 10%",
+        "category": "RTDs",
+        "price": 60.0,
+        "image": "images/spirit/RTD/BUTLERS Apple Cin 10%.png",
+        "description": "BUTLERS Apple Cin 10% is a testament to quality and tradition. The perfect balance of premium spirits and natural mixers. Enjoy responsibly and elevate your next celebration with this exquisite choice.",
+        "alcohol": "10%"
+    },
+    {
+        "id": "26",
+        "name": "Blue40 Freeze Original",
+        "category": "RTDs",
+        "price": 60.0,
+        "image": "images/spirit/RTD/Blue40 Freeze Original.png",
+        "description": "Blue40 Freeze Original is a testament to quality and tradition. Refreshing and vibrant, delivering a burst of fruit flavors. Enjoy responsibly and elevate your next celebration with this exquisite choice.",
+        "alcohol": "10%"
+    },
+    {
+        "id": "27",
+        "name": "Blue40 Freeze Pink Berry",
+        "category": "RTDs",
+        "price": 60.0,
+        "image": "images/spirit/RTD/Blue40 Freeze Pink Berry.png",
+        "description": "Blue40 Freeze Pink Berry is a testament to quality and tradition. Chill and serve for an instant premium bar experience. Enjoy responsibly and elevate your next celebration with this exquisite choice.",
+        "alcohol": "10%"
+    },
+    {
+        "id": "28",
+        "name": "Blue40 Freeze Sky Colada",
+        "category": "RTDs",
+        "price": 60.0,
+        "image": "images/spirit/RTD/Blue40 Freeze Sky Colada.png",
+        "description": "Blue40 Freeze Sky Colada is a testament to quality and tradition. Chill and serve for an instant premium bar experience. Enjoy responsibly and elevate your next celebration with this exquisite choice.",
+        "alcohol": "10%"
+    },
+    {
+        "id": "29",
+        "name": "Butler's Gin Lemon Mint 275ml",
+        "category": "RTDs",
+        "price": 60.0,
+        "image": "images/spirit/RTD/Butler's Gin Lemon Mint 275ml.png",
+        "description": "Butler's Gin Lemon Mint 275ml is a testament to quality and tradition. Chill and serve for an instant premium bar experience. Enjoy responsibly and elevate your next celebration with this exquisite choice.",
+        "alcohol": "10%"
+    },
+    {
+        "id": "30",
+        "name": "Butler's XXX Gin Lemon Mint 275ml",
+        "category": "RTDs",
+        "price": 65.0,
+        "image": "images/spirit/RTD/Butler's XXX Gin Lemon Mint 275ml.png",
+        "description": "Butler's XXX Gin Lemon Mint 275ml is a testament to quality and tradition. A convenient, perfectly mixed cocktail ready to enjoy. Enjoy responsibly and elevate your next celebration with this exquisite choice.",
+        "alcohol": "15%"
+    },
+    {
+        "id": "32",
+        "name": "ID Double Edge Energy 275ml",
+        "category": "RTDs",
+        "price": 60.0,
+        "image": "images/spirit/RTD/ID Double Edge Energy 275ml.png",
+        "description": "ID Double Edge Energy 275ml is a testament to quality and tradition. The perfect balance of premium spirits and natural mixers. Enjoy responsibly and elevate your next celebration with this exquisite choice.",
+        "alcohol": "10%"
+    },
+    {
+        "id": "34",
+        "name": "ID Double Edge Watermelon 275ml",
+        "category": "RTDs",
+        "price": 60.0,
+        "image": "images/spirit/RTD/ID Double Edge Watermelon 275ml.png",
+        "description": "ID Double Edge Watermelon 275ml is a testament to quality and tradition. Chill and serve for an instant premium bar experience. Enjoy responsibly and elevate your next celebration with this exquisite choice.",
+        "alcohol": "10%"
+    },
+    {
+        "id": "35",
+        "name": "ID XXX Cherry 275ml",
+        "category": "RTDs",
+        "price": 65.0,
+        "image": "images/spirit/RTD/ID XXX Cherry 275ml.png",
+        "description": "ID XXX Cherry 275ml is a testament to quality and tradition. A convenient, perfectly mixed cocktail ready to enjoy. Enjoy responsibly and elevate your next celebration with this exquisite choice.",
+        "alcohol": "15%"
+    },
+    {
+        "id": "36",
+        "name": "ID XXXX Mango 275ml",
+        "category": "RTDs",
+        "price": 75.0,
+        "image": "images/spirit/RTD/ID XXXX Mango 275ml.png",
+        "description": "ID XXXX Mango 275ml is a testament to quality and tradition. Refreshing and vibrant, delivering a burst of fruit flavors. Enjoy responsibly and elevate your next celebration with this exquisite choice.",
+        "alcohol": "20%"
+    },
+    {
+        "id": "37",
+        "name": "ID XXXX Pineapple & Coconut 275ml",
+        "category": "RTDs",
+        "price": 75.0,
+        "image": "images/spirit/RTD/ID XXXX Pineapple & Coconut 275ml.png",
+        "description": "ID XXXX Pineapple & Coconut 275ml is a testament to quality and tradition. The perfect balance of premium spirits and natural mixers. Enjoy responsibly and elevate your next celebration with this exquisite choice.",
+        "alcohol": "20%"
+    },
+    {
+        "id": "38",
+        "name": "ID XXXX Watermelon 275ml",
+        "category": "RTDs",
+        "price": 75.0,
+        "image": "images/spirit/RTD/ID XXXX Watermelon 275ml.png",
+        "description": "ID XXXX Watermelon 275ml is a testament to quality and tradition. Refreshing and vibrant, delivering a burst of fruit flavors. Enjoy responsibly and elevate your next celebration with this exquisite choice.",
+        "alcohol": "20%"
+    },
+    {
+        "id": "39",
+        "name": "Watermelon 15%",
+        "category": "RTDs",
+        "price": 65.0,
+        "image": "images/spirit/RTD/Watermelon 15%.png",
+        "description": "Watermelon 15% is a testament to quality and tradition. The perfect balance of premium spirits and natural mixers. Enjoy responsibly and elevate your next celebration with this exquisite choice.",
+        "alcohol": "15%"
+    },
+    {
+        "id": "40",
+        "name": "Skinos Mastiha Spirit 350ml",
+        "category": "Spirits",
+        "price": 1750.0,
+        "image": "images/spirit/Skinos Mastiha Spirit 350ml.jpeg",
+        "description": "Skinos Mastiha Spirit 350ml is a testament to quality and tradition. A premium spirit, perfect neat or as the base for exquisite cocktails. Enjoy responsibly and elevate your next celebration with this exquisite choice.",
+        "alcohol": "30%"
+    },
+    {
+        "id": "41",
+        "name": "Tequila Malvado Gold 750ml",
+        "category": "Spirits",
+        "price": 250.0,
+        "image": "images/spirit/Tequila/Tequila Malvado Gold 750ml.png",
+        "description": "Tequila Malvado Gold 750ml is a testament to quality and tradition. Aged to perfection in oak barrels, delivering a smooth and complex flavor. Enjoy responsibly and elevate your next celebration with this exquisite choice.",
+        "alcohol": "40%"
+    },
+    {
+        "id": "42",
+        "name": "Yanni Tequila 1L",
+        "category": "Spirits",
+        "price": 175.0,
+        "image": "images/spirit/Tequila/Yanni Tequila 1L.jpg",
+        "description": "Yanni Tequila 1L is a testament to quality and tradition. Aged to perfection in oak barrels, delivering a smooth and complex flavor. Enjoy responsibly and elevate your next celebration with this exquisite choice.",
+        "alcohol": "40%"
+    },
+    {
+        "id": "43",
+        "name": "Auld Stag Whisky 350ml",
+        "category": "Spirits",
+        "price": 130.0,
+        "image": "images/spirit/Whiskey/Auld Stag Whisky 350ml.png",
+        "description": "Auld Stag Whisky 350ml is a testament to quality and tradition. Triple distilled for ultimate purity and a clean, crisp taste. Enjoy responsibly and elevate your next celebration with this exquisite choice.",
+        "alcohol": "40%"
+    },
+    {
+        "id": "44",
+        "name": "Auld Stag Whisky 750 ml",
+        "category": "Spirits",
+        "price": 250.0,
+        "image": "images/spirit/Whiskey/Auld Stag Whisky 750 ml.png",
+        "description": "Auld Stag Whisky 750 ml is a testament to quality and tradition. Triple distilled for ultimate purity and a clean, crisp taste. Enjoy responsibly and elevate your next celebration with this exquisite choice.",
+        "alcohol": "40%"
+    },
+    {
+        "id": "45",
+        "name": "Black Rhino Whisky 750ml",
+        "category": "Spirits",
+        "price": 500.0,
+        "image": "images/spirit/Whiskey/Black Rhino Whisky 750ml.jpeg",
+        "description": "Black Rhino Whisky 750ml is a testament to quality and tradition. A premium spirit, perfect neat or as the base for exquisite cocktails. Enjoy responsibly and elevate your next celebration with this exquisite choice.",
+        "alcohol": "40%"
+    },
+    {
+        "id": "46",
+        "name": "Devlin Blended Whiskey 750ml",
+        "category": "Spirits",
+        "price": 550.0,
+        "image": "images/spirit/Whiskey/Devlin Blended Whiskey 750ml.jpeg",
+        "description": "Devlin Blended Whiskey 750ml is a testament to quality and tradition. Rich and warming with notes of caramel, spice, and a hint of smoke. Enjoy responsibly and elevate your next celebration with this exquisite choice.",
+        "alcohol": "40%"
+    },
+    {
+        "id": "47",
+        "name": "Devlin Whiskey 750ml",
+        "category": "Spirits",
+        "price": 850.0,
+        "image": "images/spirit/Whiskey/Devlin Whiskey 750ml.jpeg",
+        "description": "Devlin Whiskey 750ml is a testament to quality and tradition. Triple distilled for ultimate purity and a clean, crisp taste. Enjoy responsibly and elevate your next celebration with this exquisite choice.",
+        "alcohol": "40%"
+    },
+    {
+        "id": "48",
+        "name": "Excellence Whisky 250ml",
+        "category": "Spirits",
+        "price": 75.0,
+        "image": "images/spirit/Whiskey/Excellence Whisky 250ml.jpg",
+        "description": "Excellence Whisky 250ml is a testament to quality and tradition. A premium spirit, perfect neat or as the base for exquisite cocktails. Enjoy responsibly and elevate your next celebration with this exquisite choice.",
+        "alcohol": "40%"
+    },
+    {
+        "id": "49",
+        "name": "Excellence Whisky 500ml",
+        "category": "Spirits",
+        "price": 120.0,
+        "image": "images/spirit/Whiskey/Excellence Whisky 500ml.jpg",
+        "description": "Excellence Whisky 500ml is a testament to quality and tradition. Triple distilled for ultimate purity and a clean, crisp taste. Enjoy responsibly and elevate your next celebration with this exquisite choice.",
+        "alcohol": "40%"
+    },
+    {
+        "id": "50",
+        "name": "Mosaic Whisky The Bartender Edition 750ml",
+        "category": "Spirits",
+        "price": 220.0,
+        "image": "images/spirit/Whiskey/Mosaic Whisky The Bartender Edition 750ml.jpg",
+        "description": "Mosaic Whisky The Bartender Edition 750ml is a testament to quality and tradition. A premium spirit, perfect neat or as the base for exquisite cocktails. Enjoy responsibly and elevate your next celebration with this exquisite choice.",
+        "alcohol": "40%"
+    },
+    {
+        "id": "51",
+        "name": "Yanni Whisky 1L",
+        "category": "Spirits",
+        "price": 175.0,
+        "image": "images/spirit/Whiskey/Yanni Whisky 1L.jpg",
+        "description": "Yanni Whisky 1L is a testament to quality and tradition. Rich and warming with notes of caramel, spice, and a hint of smoke. Enjoy responsibly and elevate your next celebration with this exquisite choice.",
+        "alcohol": "40%"
+    },
+    {
+        "id": "52",
+        "name": "Arak Kesrouan 500ml",
+        "category": "Spirits",
+        "price": 300.0,
+        "image": "images/spirit/arak/Arak Kesrouan 500ml.jpg",
+        "description": "Arak Kesrouan 500ml is a testament to quality and tradition. Rich and warming with notes of caramel, spice, and a hint of smoke. Enjoy responsibly and elevate your next celebration with this exquisite choice.",
+        "alcohol": "50%"
+    },
+    {
+        "id": "53",
+        "name": "{08B71497-789B-4980-BB4B-7AA246E12918}",
+        "category": "Spirits",
+        "price": 960,
+        "image": "images/spirit/arak/{08B71497-789B-4980-BB4B-7AA246E12918}.png",
+        "description": "{08B71497-789B-4980-BB4B-7AA246E12918} is a testament to quality and tradition. Aged to perfection in oak barrels, delivering a smooth and complex flavor. Enjoy responsibly and elevate your next celebration with this exquisite choice.",
+        "alcohol": "40%"
+    },
+    {
+        "id": "54",
+        "name": "Mosaic Cognac Style 750ml",
+        "category": "Spirits",
+        "price": 375.0,
+        "image": "images/spirit/cognac/Mosaic Cognac Style 750ml.png",
+        "description": "Mosaic Cognac Style 750ml is a testament to quality and tradition. Aged to perfection in oak barrels, delivering a smooth and complex flavor. Enjoy responsibly and elevate your next celebration with this exquisite choice.",
+        "alcohol": "40%"
+    },
+    {
+        "id": "55",
+        "name": "Greeco Ouzo 250ml",
+        "category": "Spirits",
+        "price": 75.0,
+        "image": "images/spirit/ouzo/Greeco Ouzo 250ml.jpg",
+        "description": "Greeco Ouzo 250ml is a testament to quality and tradition. Rich and warming with notes of caramel, spice, and a hint of smoke. Enjoy responsibly and elevate your next celebration with this exquisite choice.",
+        "alcohol": "38%"
+    },
+    {
+        "id": "56",
+        "name": "Greeco Ouzo 500ml",
+        "category": "Spirits",
+        "price": 120.0,
+        "image": "images/spirit/ouzo/Greeco Ouzo 500ml.jpg",
+        "description": "Greeco Ouzo 500ml is a testament to quality and tradition. Rich and warming with notes of caramel, spice, and a hint of smoke. Enjoy responsibly and elevate your next celebration with this exquisite choice.",
+        "alcohol": "38%"
+    },
+    {
+        "id": "57",
+        "name": "Mosaic Ouzo The Bartender Edition 750ml",
+        "category": "Spirits",
+        "price": 220.0,
+        "image": "images/spirit/ouzo/Mosaic Ouzo The Bartender Edition 750ml.png",
+        "description": "Mosaic Ouzo The Bartender Edition 750ml is a testament to quality and tradition. Rich and warming with notes of caramel, spice, and a hint of smoke. Enjoy responsibly and elevate your next celebration with this exquisite choice.",
+        "alcohol": "38%"
+    },
+    {
+        "id": "58",
+        "name": "Yanni Ouzo 1L",
+        "category": "Spirits",
+        "price": 175.0,
+        "image": "images/spirit/ouzo/Yanni Ouzo 1L.jpg",
+        "description": "Yanni Ouzo 1L is a testament to quality and tradition. Aged to perfection in oak barrels, delivering a smooth and complex flavor. Enjoy responsibly and elevate your next celebration with this exquisite choice.",
+        "alcohol": "38%"
+    },
+    {
+        "id": "59",
+        "name": "Mosaic Rum Gold The Bartender Edition 750ml",
+        "category": "Spirits",
+        "price": 220.0,
+        "image": "images/spirit/rum/Mosaic Rum Gold The Bartender Edition 750ml.png",
+        "description": "Mosaic Rum Gold The Bartender Edition 750ml is a testament to quality and tradition. Rich and warming with notes of caramel, spice, and a hint of smoke. Enjoy responsibly and elevate your next celebration with this exquisite choice.",
+        "alcohol": "40%"
+    },
+    {
+        "id": "60",
+        "name": "Mosaic Rum White The Bartender Edition 750ml",
+        "category": "Spirits",
+        "price": 220.0,
+        "image": "images/spirit/rum/Mosaic Rum White The Bartender Edition 750ml.png",
+        "description": "Mosaic Rum White The Bartender Edition 750ml is a testament to quality and tradition. Rich and warming with notes of caramel, spice, and a hint of smoke. Enjoy responsibly and elevate your next celebration with this exquisite choice.",
+        "alcohol": "40%"
+    },
+    {
+        "id": "61",
+        "name": "Rum Cubana 750ml",
+        "category": "Spirits",
+        "price": 380.0,
+        "image": "images/spirit/rum/Rum Cubana 750ml.png",
+        "description": "Rum Cubana 750ml is a testament to quality and tradition. A premium spirit, perfect neat or as the base for exquisite cocktails. Enjoy responsibly and elevate your next celebration with this exquisite choice.",
+        "alcohol": "40%"
+    },
+    {
+        "id": "62",
+        "name": "Yanni Rum 1L",
+        "category": "Spirits",
+        "price": 175.0,
+        "image": "images/spirit/rum/Yanni Rum 1L.jpg",
+        "description": "Yanni Rum 1L is a testament to quality and tradition. Rich and warming with notes of caramel, spice, and a hint of smoke. Enjoy responsibly and elevate your next celebration with this exquisite choice.",
+        "alcohol": "40%"
+    },
+    {
+        "id": "63",
+        "name": "99 Vodka 250ml",
+        "category": "Spirits",
+        "price": 75.0,
+        "image": "images/spirit/vodka/99 Vodka 250ml.jpg",
+        "description": "99 Vodka 250ml is a testament to quality and tradition. Triple distilled for ultimate purity and a clean, crisp taste. Enjoy responsibly and elevate your next celebration with this exquisite choice.",
+        "alcohol": "40%"
+    },
+    {
+        "id": "64",
+        "name": "99 Vodka 500ml",
+        "category": "Spirits",
+        "price": 120.0,
+        "image": "images/spirit/vodka/99 Vodka 500ml.jpg",
+        "description": "99 Vodka 500ml is a testament to quality and tradition. Triple distilled for ultimate purity and a clean, crisp taste. Enjoy responsibly and elevate your next celebration with this exquisite choice.",
+        "alcohol": "40%"
+    },
+    {
+        "id": "65",
+        "name": "BLUE 40 Citrus Vodka 38%",
+        "category": "Spirits",
+        "price": 440.0,
+        "image": "images/spirit/vodka/BLUE 40 Citrus Vodka 38%.png",
+        "description": "BLUE 40 Citrus Vodka 38% is a testament to quality and tradition. A premium spirit, perfect neat or as the base for exquisite cocktails. Enjoy responsibly and elevate your next celebration with this exquisite choice.",
+        "alcohol": "40%"
+    },
+    {
+        "id": "66",
+        "name": "BLUE 40 Raspberry 38%",
+        "category": "Spirits",
+        "price": 440.0,
+        "image": "images/spirit/vodka/BLUE 40 Raspberry 38%.png",
+        "description": "BLUE 40 Raspberry 38% is a testament to quality and tradition. Rich and warming with notes of caramel, spice, and a hint of smoke. Enjoy responsibly and elevate your next celebration with this exquisite choice.",
+        "alcohol": "40%"
+    },
+    {
+        "id": "67",
+        "name": "ID Vodka 350ml",
+        "category": "Spirits",
+        "price": 130.0,
+        "image": "images/spirit/vodka/ID Vodka 350ml.png",
+        "description": "ID Vodka 350ml is a testament to quality and tradition. A premium spirit, perfect neat or as the base for exquisite cocktails. Enjoy responsibly and elevate your next celebration with this exquisite choice.",
+        "alcohol": "40%"
+    },
+    {
+        "id": "68",
+        "name": "ID Vodka 750ml",
+        "category": "Spirits",
+        "price": 250.0,
+        "image": "images/spirit/vodka/ID Vodka 750ml.png",
+        "description": "ID Vodka 750ml is a testament to quality and tradition. Triple distilled for ultimate purity and a clean, crisp taste. Enjoy responsibly and elevate your next celebration with this exquisite choice.",
+        "alcohol": "40%"
+    },
+    {
+        "id": "69",
+        "name": "ID Vodka Blue40 750ml",
+        "category": "Spirits",
+        "price": 440.0,
+        "image": "images/spirit/vodka/ID Vodka Blue40 750ml.png",
+        "description": "ID Vodka Blue40 750ml is a testament to quality and tradition. Aged to perfection in oak barrels, delivering a smooth and complex flavor. Enjoy responsibly and elevate your next celebration with this exquisite choice.",
+        "alcohol": "40%"
+    },
+    {
+        "id": "70",
+        "name": "Mosaic Vodka The Bartender Edition 750ml",
+        "category": "Spirits",
+        "price": 220.0,
+        "image": "images/spirit/vodka/Mosaic Vodka The Bartender Edition 750ml.png",
+        "description": "Mosaic Vodka The Bartender Edition 750ml is a testament to quality and tradition. Aged to perfection in oak barrels, delivering a smooth and complex flavor. Enjoy responsibly and elevate your next celebration with this exquisite choice.",
+        "alcohol": "40%"
+    },
+    {
+        "id": "71",
+        "name": "Swan Premium Vodka 750ml",
+        "category": "Spirits",
+        "price": 400.0,
+        "image": "images/spirit/vodka/Swan Premium Vodka 750ml.jpg",
+        "description": "Swan Premium Vodka 750ml is a testament to quality and tradition. A premium spirit, perfect neat or as the base for exquisite cocktails. Enjoy responsibly and elevate your next celebration with this exquisite choice.",
+        "alcohol": "40%"
+    },
+    {
+        "id": "72",
+        "name": "Yanni Vodka 1L",
+        "category": "Spirits",
+        "price": 175.0,
+        "image": "images/spirit/vodka/Yanni Vodka 1L.jpg",
+        "description": "Yanni Vodka 1L is a testament to quality and tradition. A premium spirit, perfect neat or as the base for exquisite cocktails. Enjoy responsibly and elevate your next celebration with this exquisite choice.",
+        "alcohol": "40%"
+    },
+    {
+        "id": "73",
+        "name": "Baila Rose Wine 750ml Discovery Vineyards Range",
+        "category": "Wine",
+        "price": 525.0,
+        "image": "images/wine/Rose/Baila Rose Wine 750ml Discovery Vineyards Range.jpg",
+        "description": "Baila Rose Wine 750ml Discovery Vineyards Range is a testament to quality and tradition. Crisp and refreshing with hints of citrus and a floral bouquet. Enjoy responsibly and elevate your next celebration with this exquisite choice.",
+        "alcohol": "12.5%"
+    },
+    {
+        "id": "74",
+        "name": "Beausoleil Rose Wine 750ml",
+        "category": "Wine",
+        "price": 375.0,
+        "image": "images/wine/Rose/Beausoleil Rose Wine 750ml.jpg",
+        "description": "Beausoleil Rose Wine 750ml is a testament to quality and tradition. A complex blend offering layers of oak, vanilla, and spice. Enjoy responsibly and elevate your next celebration with this exquisite choice.",
+        "alcohol": "12.5%"
+    },
+    {
+        "id": "75",
+        "name": "Lavita Rose Sparkling Wine 750ml",
+        "category": "Wine",
+        "price": 385.0,
+        "image": "images/wine/Rose/Lavita Rose Sparkling Wine 750ml.png",
+        "description": "Lavita Rose Sparkling Wine 750ml is a testament to quality and tradition. A complex blend offering layers of oak, vanilla, and spice. Enjoy responsibly and elevate your next celebration with this exquisite choice.",
+        "alcohol": "12.5%"
+    },
+    {
+        "id": "76",
+        "name": "Le Baron Rose Sparkling Wine 750ml",
+        "category": "Wine",
+        "price": 750.0,
+        "image": "images/wine/Rose/Le Baron Rose Sparkling Wine 750ml.jpg",
+        "description": "Le Baron Rose Sparkling Wine 750ml is a testament to quality and tradition. A full-bodied and elegant vintage with notes of dark berries and a smooth finish. Enjoy responsibly and elevate your next celebration with this exquisite choice.",
+        "alcohol": "12.5%"
+    },
+    {
+        "id": "77",
+        "name": "Omar Khayyam Rose Wine 750ml",
+        "category": "Wine",
+        "price": 260.0,
+        "image": "images/wine/Rose/Omar Khayyam Rose Wine 750ml.png",
+        "description": "Omar Khayyam Rose Wine 750ml is a testament to quality and tradition. A complex blend offering layers of oak, vanilla, and spice. Enjoy responsibly and elevate your next celebration with this exquisite choice.",
+        "alcohol": "12.5%"
+    },
+    {
+        "id": "78",
+        "name": "Shahrazade Rose Wine 750ml",
+        "category": "Wine",
+        "price": 240.0,
+        "image": "images/wine/Rose/Shahrazade Rose Wine 750ml.png",
+        "description": "Shahrazade Rose Wine 750ml is a testament to quality and tradition. A complex blend offering layers of oak, vanilla, and spice. Enjoy responsibly and elevate your next celebration with this exquisite choice.",
+        "alcohol": "12.5%"
+    },
+    {
+        "id": "79",
+        "name": "XO Rose Wine 750ml",
+        "category": "Wine",
+        "price": 290.0,
+        "image": "images/wine/Rose/XO Rose Wine 750ml.jpg",
+        "description": "XO Rose Wine 750ml is a testament to quality and tradition. Crisp and refreshing with hints of citrus and a floral bouquet. Enjoy responsibly and elevate your next celebration with this exquisite choice.",
+        "alcohol": "12.5%"
+    },
+    {
+        "id": "80",
+        "name": "Baila Red Wine 750ml Discovery Vineyards Range",
+        "category": "Wine",
+        "price": 525.0,
+        "image": "images/wine/red/Baila Red Wine 750ml Discovery Vineyards Range.jpg",
+        "description": "Baila Red Wine 750ml Discovery Vineyards Range is a testament to quality and tradition. A complex blend offering layers of oak, vanilla, and spice. Enjoy responsibly and elevate your next celebration with this exquisite choice.",
+        "alcohol": "12.5%"
+    },
+    {
+        "id": "81",
+        "name": "Beausoleil Red Wine Cabernet Sauvignon 750ml",
+        "category": "Wine",
+        "price": 375.0,
+        "image": "images/wine/red/Beausoleil Red Wine Cabernet Sauvignon 750ml.jpg",
+        "description": "Beausoleil Red Wine Cabernet Sauvignon 750ml is a testament to quality and tradition. A complex blend offering layers of oak, vanilla, and spice. Enjoy responsibly and elevate your next celebration with this exquisite choice.",
+        "alcohol": "12.5%"
+    },
+    {
+        "id": "82",
+        "name": "Beausoleil Red Wine Syrah 750ml",
+        "category": "Wine",
+        "price": 375.0,
+        "image": "images/wine/red/Beausoleil Red Wine Syrah 750ml.jpg",
+        "description": "Beausoleil Red Wine Syrah 750ml is a testament to quality and tradition. A complex blend offering layers of oak, vanilla, and spice. Enjoy responsibly and elevate your next celebration with this exquisite choice.",
+        "alcohol": "12.5%"
+    },
+    {
+        "id": "83",
+        "name": "Chateau Byblos Red Wine 750ml Discovery Vineyards Range",
+        "category": "Wine",
+        "price": 475.0,
+        "image": "images/wine/red/Chateau Byblos Red Wine 750ml Discovery Vineyards Range.jpg",
+        "description": "Chateau Byblos Red Wine 750ml Discovery Vineyards Range is a testament to quality and tradition. A complex blend offering layers of oak, vanilla, and spice. Enjoy responsibly and elevate your next celebration with this exquisite choice.",
+        "alcohol": "12.5%"
+    },
+    {
+        "id": "84",
+        "name": "Chateau de Grandville Red Wine 750ml",
+        "category": "Wine",
+        "price": 550.0,
+        "image": "images/wine/red/Chateau de Grandville Red Wine 750ml.png",
+        "description": "Chateau de Grandville Red Wine 750ml is a testament to quality and tradition. A full-bodied and elegant vintage with notes of dark berries and a smooth finish. Enjoy responsibly and elevate your next celebration with this exquisite choice.",
+        "alcohol": "12.5%"
+    },
+    {
+        "id": "85",
+        "name": "Jardin du Nil Red Wine 750ml",
+        "category": "Wine",
+        "price": 400.0,
+        "image": "images/wine/red/Jardin du Nil Red Wine 750ml.jpg",
+        "description": "Jardin du Nil Red Wine 750ml is a testament to quality and tradition. A complex blend offering layers of oak, vanilla, and spice. Enjoy responsibly and elevate your next celebration with this exquisite choice.",
+        "alcohol": "12.5%"
+    },
+    {
+        "id": "86",
+        "name": "Nala Red Wine 750ml Discovery Vineyards Range",
+        "category": "Wine",
+        "price": 575.0,
+        "image": "images/wine/red/Nala Red Wine 750ml Discovery Vineyards Range.jpg",
+        "description": "Nala Red Wine 750ml Discovery Vineyards Range is a testament to quality and tradition. A complex blend offering layers of oak, vanilla, and spice. Enjoy responsibly and elevate your next celebration with this exquisite choice.",
+        "alcohol": "12.5%"
+    },
+    {
+        "id": "87",
+        "name": "Shahrazade Red Wine 750ml",
+        "category": "Wine",
+        "price": 240.0,
+        "image": "images/wine/red/Shahrazade Red Wine 750ml.png",
+        "description": "Shahrazade Red Wine 750ml is a testament to quality and tradition. Perfectly balanced with a lingering, velvety mouthfeel. Enjoy responsibly and elevate your next celebration with this exquisite choice.",
+        "alcohol": "12.5%"
+    },
+    {
+        "id": "88",
+        "name": "XO Red Wine 750ml",
+        "category": "Wine",
+        "price": 290.0,
+        "image": "images/wine/red/XO Red Wine 750ml.jpg",
+        "description": "XO Red Wine 750ml is a testament to quality and tradition. Perfectly balanced with a lingering, velvety mouthfeel. Enjoy responsibly and elevate your next celebration with this exquisite choice.",
+        "alcohol": "12.5%"
+    },
+    {
+        "id": "89",
+        "name": "Aria Dolce",
+        "category": "Wine",
+        "price": 450.0,
+        "image": "images/wine/sparkli/Aria Dolce.png",
+        "description": "Aria Dolce is a testament to quality and tradition. A complex blend offering layers of oak, vanilla, and spice. Enjoy responsibly and elevate your next celebration with this exquisite choice.",
+        "alcohol": "12.5%"
+    },
+    {
+        "id": "90",
+        "name": "Aria Rose Sparkling Wine 750ml",
+        "category": "Wine",
+        "price": 450.0,
+        "image": "images/wine/sparkli/Aria Rose Sparkling Wine 750ml.png",
+        "description": "Aria Rose Sparkling Wine 750ml is a testament to quality and tradition. Perfectly balanced with a lingering, velvety mouthfeel. Enjoy responsibly and elevate your next celebration with this exquisite choice.",
+        "alcohol": "12.5%"
+    },
+    {
+        "id": "91",
+        "name": "Aria White Sparkling Wine 750ml",
+        "category": "Wine",
+        "price": 450.0,
+        "image": "images/wine/sparkli/Aria White Sparkling Wine 750ml.png",
+        "description": "Aria White Sparkling Wine 750ml is a testament to quality and tradition. Perfectly balanced with a lingering, velvety mouthfeel. Enjoy responsibly and elevate your next celebration with this exquisite choice.",
+        "alcohol": "12.5%"
+    },
+    {
+        "id": "92",
+        "name": "Lavita Rose Sparkling Wine 750ml",
+        "category": "Wine",
+        "price": 385.0,
+        "image": "images/wine/sparkli/Lavita Rose Sparkling Wine 750ml.png",
+        "description": "Lavita Rose Sparkling Wine 750ml is a testament to quality and tradition. A complex blend offering layers of oak, vanilla, and spice. Enjoy responsibly and elevate your next celebration with this exquisite choice.",
+        "alcohol": "12.5%"
+    },
+    {
+        "id": "93",
+        "name": "Lavita White Sparkling Wine 750ml",
+        "category": "Wine",
+        "price": 385.0,
+        "image": "images/wine/sparkli/Lavita White Sparkling Wine 750ml.jpg",
+        "description": "Lavita White Sparkling Wine 750ml is a testament to quality and tradition. Crisp and refreshing with hints of citrus and a floral bouquet. Enjoy responsibly and elevate your next celebration with this exquisite choice.",
+        "alcohol": "12.5%"
+    },
+    {
+        "id": "94",
+        "name": "Le Baron Rose Sparkling Wine 750ml",
+        "category": "Wine",
+        "price": 750.0,
+        "image": "images/wine/sparkli/Le Baron Rose Sparkling Wine 750ml.jpg",
+        "description": "Le Baron Rose Sparkling Wine 750ml is a testament to quality and tradition. A complex blend offering layers of oak, vanilla, and spice. Enjoy responsibly and elevate your next celebration with this exquisite choice.",
+        "alcohol": "12.5%"
+    },
+    {
+        "id": "95",
+        "name": "Le Baron White Signature Sparkling Wine 750ml",
+        "category": "Wine",
+        "price": 750.0,
+        "image": "images/wine/sparkli/Le Baron White Signature Sparkling Wine 750ml.jpg",
+        "description": "Le Baron White Signature Sparkling Wine 750ml is a testament to quality and tradition. Perfectly balanced with a lingering, velvety mouthfeel. Enjoy responsibly and elevate your next celebration with this exquisite choice.",
+        "alcohol": "12.5%"
+    },
+    {
+        "id": "96",
+        "name": "Le Baron White Sparkling Wine 750ml",
+        "category": "Wine",
+        "price": 750.0,
+        "image": "images/wine/sparkli/Le Baron White Sparkling Wine 750ml.jpg",
+        "description": "Le Baron White Sparkling Wine 750ml is a testament to quality and tradition. A complex blend offering layers of oak, vanilla, and spice. Enjoy responsibly and elevate your next celebration with this exquisite choice.",
+        "alcohol": "12.5%"
+    },
+    {
+        "id": "97",
+        "name": "Valmont Rose Sparkling Wine 750ml",
+        "category": "Wine",
+        "price": 400.0,
+        "image": "images/wine/sparkli/Valmont Rose Sparkling Wine 750ml.png",
+        "description": "Valmont Rose Sparkling Wine 750ml is a testament to quality and tradition. Perfectly balanced with a lingering, velvety mouthfeel. Enjoy responsibly and elevate your next celebration with this exquisite choice.",
+        "alcohol": "12%"
+    },
+    {
+        "id": "98",
+        "name": "Valmont White Sparkling Wine 750ml",
+        "category": "Wine",
+        "price": 400.0,
+        "image": "images/wine/sparkli/Valmont White Sparkling Wine 750ml.png",
+        "description": "Valmont White Sparkling Wine 750ml is a testament to quality and tradition. Crisp and refreshing with hints of citrus and a floral bouquet. Enjoy responsibly and elevate your next celebration with this exquisite choice.",
+        "alcohol": "12%"
+    },
+    {
+        "id": "99",
+        "name": "Abarka Wine 750ml",
+        "category": "Wine",
+        "price": 240.0,
+        "image": "images/wine/white/Abarka Wine 750ml.png",
+        "description": "Abarka Wine 750ml is a testament to quality and tradition. Perfectly balanced with a lingering, velvety mouthfeel. Enjoy responsibly and elevate your next celebration with this exquisite choice.",
+        "alcohol": "12.5%"
+    },
+    {
+        "id": "100",
+        "name": "Baila White Wine 750ml Discovery Vineyards Range",
+        "category": "Wine",
+        "price": 525.0,
+        "image": "images/wine/white/Baila White Wine 750ml Discovery Vineyards Range.jpg",
+        "description": "Baila White Wine 750ml Discovery Vineyards Range is a testament to quality and tradition. Crisp and refreshing with hints of citrus and a floral bouquet. Enjoy responsibly and elevate your next celebration with this exquisite choice.",
+        "alcohol": "12.5%"
+    },
+    {
+        "id": "101",
+        "name": "Beausoleil Port Style Wine 750ml",
+        "category": "Wine",
+        "price": 375.0,
+        "image": "images/wine/white/Beausoleil Port Style Wine 750ml.jpg",
+        "description": "Beausoleil Port Style Wine 750ml is a testament to quality and tradition. Perfectly balanced with a lingering, velvety mouthfeel. Enjoy responsibly and elevate your next celebration with this exquisite choice.",
+        "alcohol": "12.5%"
+    },
+    {
+        "id": "103",
+        "name": "Beausoleil White Wine 750ml",
+        "category": "Wine",
+        "price": 375.0,
+        "image": "images/wine/white/Beausoleil White Wine 750ml.jpg",
+        "description": "Beausoleil White Wine 750ml is a testament to quality and tradition. A full-bodied and elegant vintage with notes of dark berries and a smooth finish. Enjoy responsibly and elevate your next celebration with this exquisite choice.",
+        "alcohol": "12.5%"
+    },
+    {
+        "id": "104",
+        "name": "Cape Bay White Wine 750ml",
+        "category": "Wine",
+        "price": 450.0,
+        "image": "images/wine/white/Cape Bay White Wine 750ml.png",
+        "description": "Cape Bay White Wine 750ml is a testament to quality and tradition. Crisp and refreshing with hints of citrus and a floral bouquet. Enjoy responsibly and elevate your next celebration with this exquisite choice.",
+        "alcohol": "12.5%"
+    },
+    {
+        "id": "105",
+        "name": "Castello Di Trevi White Wine 750ml",
+        "category": "Wine",
+        "price": 400.0,
+        "image": "images/wine/white/Castello Di Trevi White Wine 750ml.png",
+        "description": "Castello Di Trevi White Wine 750ml is a testament to quality and tradition. Perfectly balanced with a lingering, velvety mouthfeel. Enjoy responsibly and elevate your next celebration with this exquisite choice.",
+        "alcohol": "12.5%"
+    },
+    {
+        "id": "106",
+        "name": "Chateau Byblos White Wine 750ml Discovery Vineyards Range",
+        "category": "Wine",
+        "price": 475.0,
+        "image": "images/wine/white/Chateau Byblos White Wine 750ml Discovery Vineyards Range.jpg",
+        "description": "Chateau Byblos White Wine 750ml Discovery Vineyards Range is a testament to quality and tradition. A full-bodied and elegant vintage with notes of dark berries and a smooth finish. Enjoy responsibly and elevate your next celebration with this exquisite choice.",
+        "alcohol": "12.5%"
+    },
+    {
+        "id": "107",
+        "name": "Chateau de Grandville White Wine 750ml",
+        "category": "Wine",
+        "price": 550.0,
+        "image": "images/wine/white/Chateau de Grandville White Wine 750ml.png",
+        "description": "Chateau de Grandville White Wine 750ml is a testament to quality and tradition. A full-bodied and elegant vintage with notes of dark berries and a smooth finish. Enjoy responsibly and elevate your next celebration with this exquisite choice.",
+        "alcohol": "12.5%"
+    },
+    {
+        "id": "108",
+        "name": "Grand Marquis White Wine 750ml",
+        "category": "Wine",
+        "price": 340.0,
+        "image": "images/wine/white/Grand Marquis White Wine 750ml.jpg",
+        "description": "Grand Marquis White Wine 750ml is a testament to quality and tradition. A full-bodied and elegant vintage with notes of dark berries and a smooth finish. Enjoy responsibly and elevate your next celebration with this exquisite choice.",
+        "alcohol": "12.5%"
+    },
+    {
+        "id": "109",
+        "name": "Jardin du Nil White Wine 750ml",
+        "category": "Wine",
+        "price": 400.0,
+        "image": "images/wine/white/Jardin du Nil White Wine 750ml.jpg",
+        "description": "Jardin du Nil White Wine 750ml is a testament to quality and tradition. Crisp and refreshing with hints of citrus and a floral bouquet. Enjoy responsibly and elevate your next celebration with this exquisite choice.",
+        "alcohol": "12.5%"
+    },
+    {
+        "id": "110",
+        "name": "Lavita White Sparkling Wine 750ml",
+        "category": "Wine",
+        "price": 385.0,
+        "image": "images/wine/white/Lavita White Sparkling Wine 750ml.jpg",
+        "description": "Lavita White Sparkling Wine 750ml is a testament to quality and tradition. Perfectly balanced with a lingering, velvety mouthfeel. Enjoy responsibly and elevate your next celebration with this exquisite choice.",
+        "alcohol": "12.5%"
+    },
+    {
+        "id": "111",
+        "name": "Le Baron White Sparkling Wine 750ml",
+        "category": "Wine",
+        "price": 750.0,
+        "image": "images/wine/white/Le Baron White Sparkling Wine 750ml.jpg",
+        "description": "Le Baron White Sparkling Wine 750ml is a testament to quality and tradition. A full-bodied and elegant vintage with notes of dark berries and a smooth finish. Enjoy responsibly and elevate your next celebration with this exquisite choice.",
+        "alcohol": "12.5%"
+    },
+    {
+        "id": "112",
+        "name": "Nala White Wine 750ml Discovery Vineyards Range",
+        "category": "Wine",
+        "price": 550.0,
+        "image": "images/wine/white/Nala White Wine 750ml Discovery Vineyards Range.jpg",
+        "description": "Nala White Wine 750ml Discovery Vineyards Range is a testament to quality and tradition. Perfectly balanced with a lingering, velvety mouthfeel. Enjoy responsibly and elevate your next celebration with this exquisite choice.",
+        "alcohol": "12.5%"
+    },
+    {
+        "id": "113",
+        "name": "Omar Khayyam White Wine 750ml",
+        "category": "Wine",
+        "price": 260.0,
+        "image": "images/wine/white/Omar Khayyam White Wine 750ml.png",
+        "description": "Omar Khayyam White Wine 750ml is a testament to quality and tradition. Perfectly balanced with a lingering, velvety mouthfeel. Enjoy responsibly and elevate your next celebration with this exquisite choice.",
+        "alcohol": "12.5%"
+    },
+    {
+        "id": "114",
+        "name": "Shahrazade Abarka Sweet Red Wine 750ml",
+        "category": "Wine",
+        "price": 230.0,
+        "image": "images/wine/white/Shahrazade Abarka Sweet Red Wine 750ml.jpg",
+        "description": "Shahrazade Abarka Sweet Red Wine 750ml is a testament to quality and tradition. Perfectly balanced with a lingering, velvety mouthfeel. Enjoy responsibly and elevate your next celebration with this exquisite choice.",
+        "alcohol": "12.5%"
+    },
+    {
+        "id": "116",
+        "name": "Shahrazade White Wine 750ml",
+        "category": "Wine",
+        "price": 240.0,
+        "image": "images/wine/white/Shahrazade White Wine 750ml.png",
+        "description": "Shahrazade White Wine 750ml is a testament to quality and tradition. Perfectly balanced with a lingering, velvety mouthfeel. Enjoy responsibly and elevate your next celebration with this exquisite choice.",
+        "alcohol": "12.5%"
+    },
+    {
+        "id": "117",
+        "name": "Shahrazade White Wine 750ml",
+        "category": "Wine",
+        "price": 290.0,
+        "image": "images/wine/white/XO White Wine 750ml.jpg",
+        "description": "XO White Wine 750ml is a testament to quality and tradition. Crisp and refreshing with hints of citrus and a floral bouquet. Enjoy responsibly and elevate your next celebration with this exquisite choice.",
+        "alcohol": "12.5%"
+    },
+    {
+        "id": "201",
+        "name": "Truffle & Herb Potato Crisps 120g",
+        "category": "Snacks",
+        "price": 95.0,
+        "image": "images/snacks_crisps.png",
+        "description": "Gourmet hand-cooked potato crisps seasoned with exquisite black winter truffle and aromatic wild herbs. The perfect savory companion to your premium beer or champagne.",
+        "alcohol": "0%"
+    },
+    {
+        "id": "202",
+        "name": "Premium Roasted Cashews 150g",
+        "category": "Snacks",
+        "price": 160.0,
+        "image": "images/snacks_cashews.png",
+        "description": "Select whole cashew nuts, slowly dry-roasted to a rich golden perfection and lightly dusted with delicate sea salt flakes. Excellent pairing for fine wines and heavy whiskeys.",
+        "alcohol": "0%"
+    },
+    {
+        "id": "203",
+        "name": "DRINK Premium Tonic Water 250ml",
+        "category": "Soft Drinks",
+        "price": 40.0,
+        "image": "images/soft_tonic.png",
+        "description": "A high-end, sparkling tonic water brewed with hand-selected natural quinine and organic botanicals. Crisp, refreshing, and custom-tailored for the ultimate premium cocktail mixer.",
+        "alcohol": "0%"
+    },
+    {
+        "id": "204",
+        "name": "Artisanal Ginger Beer 330ml",
+        "category": "Soft Drinks",
+        "price": 65.0,
+        "image": "images/soft_ginger.png",
+        "description": "Naturally fermented ginger beer made with cold-pressed fresh ginger root and premium cane sugar. Delivers a vibrant, zesty spice kick with a smooth, bubbly finish.",
+        "alcohol": "0%"
+    },
+    {
+        "id": "205",
+        "name": "Premium DRINK Gold Cigarettes",
+        "category": "Tobacco",
+        "price": 150.0,
+        "image": "images/tobacco_gold.png",
+        "description": "A select blend of fine, sun-cured Virginia and Turkish tobaccos, crafted under strict master standards for a rich, aromatic, and exceptionally smooth smoking experience.",
+        "alcohol": "0%"
+    }
+]
