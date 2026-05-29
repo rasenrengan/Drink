@@ -624,3 +624,31 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     }
 });
+
+    // 7. Robust JS Hero Slideshow Logic
+    const slideshow = document.querySelector('.hero-slideshow');
+    if (slideshow) {
+        const slides = slideshow.querySelectorAll('.slide');
+        if (slides.length > 0) {
+            let currentSlide = 0;
+            // Initialize slides
+            slides.forEach((s, i) => {
+                s.style.opacity = i === 0 ? '1' : '0';
+                s.style.transition = 'opacity 1s ease-in-out';
+                s.style.animation = 'none'; // Disable any CSS animations
+                s.style.position = 'absolute';
+                s.style.top = '0';
+                s.style.left = '0';
+                s.style.width = '100%';
+                s.style.height = '100%';
+                s.style.backgroundSize = 'cover';
+                s.style.backgroundPosition = 'center';
+            });
+
+            setInterval(() => {
+                slides[currentSlide].style.opacity = '0';
+                currentSlide = (currentSlide + 1) % slides.length;
+                slides[currentSlide].style.opacity = '1';
+            }, 2500); // 2.5 seconds rotation
+        }
+    }
