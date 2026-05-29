@@ -635,7 +635,6 @@ document.addEventListener('DOMContentLoaded', () => {
             slides.forEach((s, i) => {
                 s.style.opacity = i === 0 ? '1' : '0';
                 s.style.transition = 'opacity 1s ease-in-out';
-                s.style.animation = 'none'; // Disable any CSS animations
                 s.style.position = 'absolute';
                 s.style.top = '0';
                 s.style.left = '0';
