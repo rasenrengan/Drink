@@ -273,7 +273,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // 3. Global Floating Action Button (Call Us)
     const callFAB = document.createElement('a');
-    callFAB.href = 'tel:+201200669461';
+    callFAB.href = 'tel:+201551552171';
     callFAB.className = 'floating-call-btn';
     callFAB.setAttribute('aria-label', 'Call Us');
     callFAB.innerHTML = `
