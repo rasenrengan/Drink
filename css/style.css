@@ -13,13 +13,13 @@
     /* ─── Environmental (Teal 15% + Green 15% + Sand 15%) ─── */
     --sea-teal:      #1493A3;
     --sea-light:     #1BBDD4;
-    --palm-green:    #2F5A3F; /* Muted green (50% less vibrant) */
+    --palm-green: #1E6B38; /* Muted green (50% less vibrant) */
     --sand-bg:       #FFFDF4;
     --sand-card:     #FFF9EC;
 
     /* ─── Structure & Accents (Brown 10% + Red 10%) ─── */
     --wood-brown:    #8B4513;
-    --brand-red:     #9E1B1E;
+    --brand-red: #D32F2F;
 
     /* ─── Neutral Aliases ─── */
     --bg-main:       var(--sand-bg);
@@ -98,29 +98,13 @@ a { text-decoration: none; color: inherit; }
 .hero-slideshow .slide {
     position: absolute; top: 0; left: 0; width: 100%; height: 100%;
     background-size: cover; background-position: center;
-    opacity: 0; animation: fadeSlide 15s infinite;
+    opacity: 0; /* JS handles animation */
 }
-.slide-1 { background-image: url('../images/banner.png');   animation-delay: 0s;  }
-.slide-2 { background-image: url('../images/slide2.png');   animation-delay: -12.5s;  }
-.slide-3 { 
-    background-image: url('../images/spirit/RTD/ID Double Edge Energy 275ml.png'); 
-    animation-delay: -10.0s; background-size: contain !important; background-repeat: no-repeat; 
-}
-.slide-4 { 
-    background-image: url('../images/spirit/Whiskey/Auld Stag Whisky 750 ml.png'); 
-    animation-delay: -7.5s; background-size: contain !important; background-repeat: no-repeat; 
-}
-.slide-5 { 
-    background-image: url('../images/Beers/Stella 330ml Bottle.png'); 
-    animation-delay: -5.0s; background-size: contain !important; background-repeat: no-repeat; 
-}
-.slide-6 { 
-    background-image: url('../images/wine/red/Chateau de Grandville Red Wine 750ml.png'); 
-    animation-delay: -2.5s; background-size: contain !important; background-repeat: no-repeat; 
-}
-
-@keyframes fadeSlide {
-    0%   { opacity: 0; transform: scale(1.00); }
+.slide-1 { background-image: url('../images/banner_comp.jpg'); }
+.slide-2 { background-image: url('../images/categories/rtds.webp'); }
+.slide-3 { background-image: url('../images/categories/wines_comp.jpg'); }
+.slide-4 { background-image: url('../images/categories/spirits.webp'); }
+.slide-5 { background-image: url('../images/categories/beer.webp'); }
     3.3% { opacity: 1; transform: scale(1.01); }
     16.6%{ opacity: 1; transform: scale(1.03); }
     20.0%{ opacity: 0; transform: scale(1.04); }
@@ -129,7 +113,7 @@ a { text-decoration: none; color: inherit; }
 
 .hero::before {
     content: ''; position: absolute; inset: 0;
-    background: linear-gradient(160deg, rgba(20, 147, 163, 0.40) 0%, rgba(30, 30, 35, 0.65) 100%);
+    background: linear-gradient(160deg, rgba(30, 107, 56, 0.45) 0%, rgba(211, 47, 47, 0.35) 50%, rgba(255, 208, 40, 0.35) 100%);
     z-index: 1;
 }
 .hero-content { position: relative; z-index: 2; max-width: 800px; padding: 0 20px; }
@@ -359,7 +343,7 @@ footer a:hover { color: var(--white); text-decoration: underline; }
 /* ─── Age Gate ─── */
 .age-gate-overlay {
     position: fixed; inset: 0;
-    background: linear-gradient(160deg, rgba(20, 147, 163, 0.90) 0%, rgba(30, 30, 35, 0.97) 100%);
+    background: linear-gradient(160deg, rgba(30, 107, 56, 0.92) 0%, rgba(211, 47, 47, 0.85) 50%, rgba(255, 208, 40, 0.85) 100%);
     backdrop-filter: blur(16px);
     z-index: 9999; display: flex; align-items: center; justify-content: center;
     padding: 20px; opacity: 0; transition: opacity 0.5s ease;
