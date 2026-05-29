@@ -141,7 +141,7 @@ a { text-decoration: none; color: inherit; }
     opacity: 0;
     animation: fadeSlide 15s infinite;
 }
-.slide-1 { background-image: url('../images/slide1.png'); animation-delay: 0s; }
+.slide-1 { background-image: url('../images/banner.png'); animation-delay: 0s; }
 .slide-2 { background-image: url('../images/slide2.png'); animation-delay: 5s; }
 .slide-3 { background-image: url('../images/slide3.png'); animation-delay: 10s; }
 
