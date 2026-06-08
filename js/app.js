@@ -623,6 +623,84 @@ document.addEventListener('DOMContentLoaded', () => {
             });
         }
     }
+
+    // Summer Offer Popup Logic
+    const isHomePage = document.querySelector('.hero-slideshow');
+    if (isHomePage) {
+        function showSummerOfferPopup() {
+            if (sessionStorage.getItem('summer_offer_shown') === 'true') return;
+            
+            const offerOverlay = document.createElement('div');
+            offerOverlay.className = 'offer-popup-overlay';
+            offerOverlay.style.cssText = `
+                position: fixed; inset: 0;
+                background: rgba(0, 0, 0, 0.85);
+                backdrop-filter: blur(8px);
+                -webkit-backdrop-filter: blur(8px);
+                z-index: 9998; display: flex; align-items: center; justify-content: center;
+                padding: 20px; opacity: 0; transition: opacity 0.4s ease;
+            `;
+            
+            offerOverlay.innerHTML = `
+                <div class="offer-popup-modal" style="
+                    background: var(--sand-bg);
+                    border: 3px solid var(--brand-yellow);
+                    border-radius: 20px;
+                    padding: 10px; max-width: 500px; width: 100%; text-align: center;
+                    box-shadow: 0 20px 50px rgba(0,0,0,0.5), 0 0 30px rgba(255, 208, 40, 0.3);
+                    position: relative; transform: scale(0.9);
+                    transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+                ">
+                    <button id="close-offer-btn" style="
+                        position: absolute; top: -15px; right: -15px;
+                        background: linear-gradient(135deg, var(--brand-yellow), var(--brand-orange));
+                        color: white; border: 2px solid white; border-radius: 50%;
+                        width: 35px; height: 35px; font-weight: bold; cursor: pointer;
+                        box-shadow: 0 4px 10px rgba(0,0,0,0.3); display: flex;
+                        align-items: center; justify-content: center; font-size: 1.2rem;
+                    ">&times;</button>
+                    <img src="images/summer-offer.webp" alt="Summer Offer Deals" style="
+                        width: 100%; height: auto; border-radius: 12px; display: block;
+                    ">
+                </div>
+            `;
+            
+            document.body.appendChild(offerOverlay);
+            
+            setTimeout(() => {
+                offerOverlay.style.opacity = '1';
+                offerOverlay.querySelector('.offer-popup-modal').style.transform = 'scale(1)';
+            }, 100);
+            
+            const closeOffer = () => {
+                offerOverlay.style.opacity = '0';
+                offerOverlay.querySelector('.offer-popup-modal').style.transform = 'scale(0.9)';
+                setTimeout(() => {
+                    offerOverlay.remove();
+                }, 400);
+                sessionStorage.setItem('summer_offer_shown', 'true');
+            };
+            
+            document.getElementById('close-offer-btn').addEventListener('click', closeOffer);
+            offerOverlay.addEventListener('click', (e) => {
+                if (e.target === offerOverlay) closeOffer();
+            });
+        }
+        
+        // Show after age verification check
+        if (localStorage.getItem('age_verified') === 'true') {
+            // Show shortly after page loads
+            setTimeout(showSummerOfferPopup, 1000);
+        } else {
+            // Wait for age gate confirm button to be clicked (in case page loaded first time)
+            // Need to poll or wait for button click.
+            document.addEventListener('click', (e) => {
+                if (e.target && e.target.id === 'age-confirm-btn') {
+                    setTimeout(showSummerOfferPopup, 1500);
+                }
+            });
+        }
+    }
 });
 
     // 7. Robust JS Hero Slideshow Logic
