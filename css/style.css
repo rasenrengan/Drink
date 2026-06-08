@@ -113,7 +113,14 @@ a { text-decoration: none; color: inherit; }
 .slide-3 { background-image: url('../images/categories/wines_comp.jpg'); }
 .slide-4 { background-image: url('../images/categories/spirits.webp'); }
 .slide-5 { background-image: url('../images/categories/beer.webp'); }
-.slide-6 { background-image: url('../images/summer-offer.webp'); }
+.slide-6 {
+    background-image: url('../images/summer-offer.webp');
+    background-size: contain !important;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #0b80db; /* Match blue sky gradient of the poster */
+    animation: none !important; /* Disable Ken Burns zoom so text remains readable */
+}
     3.3% { opacity: 1; transform: scale(1.01); }
     16.6%{ opacity: 1; transform: scale(1.03); }
     20.0%{ opacity: 0; transform: scale(1.04); }
