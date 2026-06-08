@@ -41,7 +41,7 @@ DRINKIES_LOOKUP = {
     
     # Wines
     r'omar.*khayyam.*rose.*750': 250.0,
-    r'omar.*khayyam.*red.*750': 260.0,
+    r'omar.*khayyam.*red.*750': 250.0,
     r'omar.*khayyam.*white.*750': 250.0,
     r'shahrazade.*rose.*750': 260.0,
     r'shahrazade.*red.*750': 260.0,

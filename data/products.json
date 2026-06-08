@@ -1069,5 +1069,14 @@
         "image": "images/tobacco_gold.png",
         "description": "A select blend of fine, sun-cured Virginia and Turkish tobaccos, crafted under strict master standards for a rich, aromatic, and exceptionally smooth smoking experience.",
         "alcohol": "0%"
+    },
+    {
+        "id": "206",
+        "name": "Omar Khayyam Red Wine 750ml",
+        "category": "Wine",
+        "price": 250.0,
+        "image": "images/wine/red/Omar Khayyam Red Wine 750ml.png",
+        "description": "Type: Medium bodied red wine<br>Description: Bright red color. The nose develops aromas of red fruit. The palate is smooth with soft tannins delivering plum, raspberry and red cherry flavors.<br>Blend: Bobal<br>Grape Origin: Egypt<br>Food Pairing: Meats, poultry and cheese.<br>Serving Temperature: 16 -18 °C<br>Available in:<br>• 750ml bottle",
+        "alcohol": "12.5%"
     }
 ]
