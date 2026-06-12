@@ -48,7 +48,7 @@
         "id": "7",
         "name": "Meister Max Can 500ml",
         "category": "Beer",
-        "price": 60.0,
+        "price": 65.0,
         "image": "images/Beers/Meister Max Can 500ml.png",
         "description": "Meister Max Can 500ml is a testament to quality and tradition. A refreshing, crisp brew with a clean finish and balanced bitterness. Enjoy responsibly and elevate your next celebration with this exquisite choice.",
         "alcohol": "8%"
@@ -66,25 +66,25 @@
         "id": "8",
         "name": "Sakara El King Bottle 500ml",
         "category": "Beer",
-        "price": 70.0,
+        "price": 75.0,
         "image": "images/Beers/Sakara El King Bottle 500ml.png",
         "description": "Sakara El King Bottle 500ml is a testament to quality and tradition. Rich and malty with a robust flavor profile and smooth head. Enjoy responsibly and elevate your next celebration with this exquisite choice.",
-        "alcohol": "4.5%"
+        "alcohol": "10%"
     },
     {
         "id": "9",
         "name": "Sakara ElKing Can 500ml",
         "category": "Beer",
-        "price": 70.0,
+        "price": 75.0,
         "image": "images/Beers/Sakara ElKing Can 500ml.png",
         "description": "Sakara ElKing Can 500ml is a testament to quality and tradition. A refreshing, crisp brew with a clean finish and balanced bitterness. Enjoy responsibly and elevate your next celebration with this exquisite choice.",
-        "alcohol": "4.5%"
+        "alcohol": "10%"
     },
     {
         "id": "10",
         "name": "Sakara Gold Bottle 500ml",
         "category": "Beer",
-        "price": 50.0,
+        "price": 65.0,
         "image": "images/Beers/Sakara Gold Bottle 500ml.png",
         "description": "Sakara Gold Bottle 500ml is a testament to quality and tradition. Light, easily drinkable with subtle citrus notes. Enjoy responsibly and elevate your next celebration with this exquisite choice.",
         "alcohol": "4%"
@@ -93,10 +93,10 @@
         "id": "11",
         "name": "Sakara king Can 500ml",
         "category": "Beer",
-        "price": 80.0,
+        "price": 85.0,
         "image": "images/Beers/Sakara king Can 500ml.png",
         "description": "Sakara king Can 500ml is a testament to quality and tradition. A refreshing, crisp brew with a clean finish and balanced bitterness. Enjoy responsibly and elevate your next celebration with this exquisite choice.",
-        "alcohol": "4.5%"
+        "alcohol": "15%"
     },
     {
         "id": "12",
@@ -111,10 +111,10 @@
         "id": "119",
         "name": "Sakara Can 500ml",
         "category": "Beer",
-        "price": 80.0,
+        "price": 85.0,
         "image": "images/Beers/Sakara Can 500ml.png",
         "description": "Sakara Can 500ml is a premium beer crafted for the discerning palate.",
-        "alcohol": "4.5%"
+        "alcohol": "15%"
     },
     {
         "id": "13",
@@ -228,7 +228,7 @@
         "id": "25",
         "name": "BUTLERS Apple Cin 10%",
         "category": "RTDs",
-        "price": 60.0,
+        "price": 65.0,
         "image": "images/spirit/RTD/BUTLERS Apple Cin 10%.png",
         "description": "BUTLERS Apple Cin 10% is a testament to quality and tradition. The perfect balance of premium spirits and natural mixers. Enjoy responsibly and elevate your next celebration with this exquisite choice.",
         "alcohol": "10%"
@@ -237,7 +237,7 @@
         "id": "26",
         "name": "Blue40 Freeze Original",
         "category": "RTDs",
-        "price": 60.0,
+        "price": 65.0,
         "image": "images/spirit/RTD/Blue40 Freeze Original.png",
         "description": "Blue40 Freeze Original is a testament to quality and tradition. Refreshing and vibrant, delivering a burst of fruit flavors. Enjoy responsibly and elevate your next celebration with this exquisite choice.",
         "alcohol": "10%"
@@ -246,7 +246,7 @@
         "id": "27",
         "name": "Blue40 Freeze Pink Berry",
         "category": "RTDs",
-        "price": 60.0,
+        "price": 65.0,
         "image": "images/spirit/RTD/Blue40 Freeze Pink Berry.png",
         "description": "Blue40 Freeze Pink Berry is a testament to quality and tradition. Chill and serve for an instant premium bar experience. Enjoy responsibly and elevate your next celebration with this exquisite choice.",
         "alcohol": "10%"
@@ -255,7 +255,7 @@
         "id": "28",
         "name": "Blue40 Freeze Sky Colada",
         "category": "RTDs",
-        "price": 60.0,
+        "price": 65.0,
         "image": "images/spirit/RTD/Blue40 Freeze Sky Colada.png",
         "description": "Blue40 Freeze Sky Colada is a testament to quality and tradition. Chill and serve for an instant premium bar experience. Enjoy responsibly and elevate your next celebration with this exquisite choice.",
         "alcohol": "10%"
@@ -264,7 +264,7 @@
         "id": "29",
         "name": "Butler's Gin Lemon Mint 275ml",
         "category": "RTDs",
-        "price": 60.0,
+        "price": 65.0,
         "image": "images/spirit/RTD/Butler's Gin Lemon Mint 275ml.png",
         "description": "Butler's Gin Lemon Mint 275ml is a testament to quality and tradition. Chill and serve for an instant premium bar experience. Enjoy responsibly and elevate your next celebration with this exquisite choice.",
         "alcohol": "10%"
@@ -345,7 +345,7 @@
         "id": "40",
         "name": "Skinos Mastiha Spirit 350ml",
         "category": "Spirits",
-        "price": 1750.0,
+        "price": 950.0,
         "image": "images/spirit/Skinos Mastiha Spirit 350ml.jpeg",
         "description": "Skinos Mastiha Spirit 350ml is a testament to quality and tradition. A premium spirit, perfect neat or as the base for exquisite cocktails. Enjoy responsibly and elevate your next celebration with this exquisite choice.",
         "alcohol": "30%"
@@ -390,27 +390,27 @@
         "id": "45",
         "name": "Black Rhino Whisky 750ml",
         "category": "Spirits",
-        "price": 250.0,
+        "price": 500.0,
         "image": "images/spirit/Whiskey/Black Rhino Whisky 750ml.jpeg",
         "description": "Black Rhino Whisky 750ml is a testament to quality and tradition. A premium spirit, perfect neat or as the base for exquisite cocktails. Enjoy responsibly and elevate your next celebration with this exquisite choice.",
         "alcohol": "40%"
     },
     {
         "id": "46",
-        "name": "Devlin Blended Whiskey 750ml",
+        "name": "Devlen Blended Whiskey 750ml",
         "category": "Spirits",
-        "price": 350.0,
+        "price": 550.0,
         "image": "images/spirit/Whiskey/Devlin Blended Whiskey 750ml.jpeg",
-        "description": "Devlin Blended Whiskey 750ml is a testament to quality and tradition. Rich and warming with notes of caramel, spice, and a hint of smoke. Enjoy responsibly and elevate your next celebration with this exquisite choice.",
+        "description": "Devlen Blended Whiskey 750ml is a testament to quality and tradition. Rich and warming with notes of caramel, spice, and a hint of smoke. Enjoy responsibly and elevate your next celebration with this exquisite choice.",
         "alcohol": "40%"
     },
     {
         "id": "47",
-        "name": "Devlin Whiskey 750ml",
+        "name": "Black Devlen 750ml",
         "category": "Spirits",
-        "price": 350.0,
+        "price": 850.0,
         "image": "images/spirit/Whiskey/Devlin Whiskey 750ml.jpeg",
-        "description": "Devlin Whiskey 750ml is a testament to quality and tradition. Triple distilled for ultimate purity and a clean, crisp taste. Enjoy responsibly and elevate your next celebration with this exquisite choice.",
+        "description": "Black Devlen 750ml is a testament to quality and tradition. Triple distilled for ultimate purity and a clean, crisp taste. Enjoy responsibly and elevate your next celebration with this exquisite choice.",
         "alcohol": "40%"
     },
     {
@@ -460,18 +460,18 @@
     },
     {
         "id": "53",
-        "name": "{08B71497-789B-4980-BB4B-7AA246E12918}",
+        "name": "Arak",
         "category": "Spirits",
-        "price": 960,
+        "price": 300.0,
         "image": "images/spirit/arak/{08B71497-789B-4980-BB4B-7AA246E12918}.png",
-        "description": "{08B71497-789B-4980-BB4B-7AA246E12918} is a testament to quality and tradition. Aged to perfection in oak barrels, delivering a smooth and complex flavor. Enjoy responsibly and elevate your next celebration with this exquisite choice.",
+        "description": "Arak is a testament to quality and tradition. Aged to perfection in oak barrels, delivering a smooth and complex flavor. Enjoy responsibly and elevate your next celebration with this exquisite choice.",
         "alcohol": "40%"
     },
     {
         "id": "54",
         "name": "Mosaic Cognac Style 750ml",
         "category": "Spirits",
-        "price": 375.0,
+        "price": 500.0,
         "image": "images/spirit/cognac/Mosaic Cognac Style 750ml.png",
         "description": "Mosaic Cognac Style 750ml is a testament to quality and tradition. Aged to perfection in oak barrels, delivering a smooth and complex flavor. Enjoy responsibly and elevate your next celebration with this exquisite choice.",
         "alcohol": "40%"
@@ -606,7 +606,7 @@
         "id": "69",
         "name": "ID Vodka Blue40 750ml",
         "category": "Spirits",
-        "price": 250.0,
+        "price": 440.0,
         "image": "images/spirit/vodka/ID Vodka Blue40 750ml.png",
         "description": "ID Vodka Blue40 750ml is a testament to quality and tradition. Aged to perfection in oak barrels, delivering a smooth and complex flavor. Enjoy responsibly and elevate your next celebration with this exquisite choice.",
         "alcohol": "40%"
@@ -1078,5 +1078,14 @@
         "image": "images/wine/red/Omar Khayyam Red Wine 750ml.png",
         "description": "Type: Medium bodied red wine<br>Description: Bright red color. The nose develops aromas of red fruit. The palate is smooth with soft tannins delivering plum, raspberry and red cherry flavors.<br>Blend: Bobal<br>Grape Origin: Egypt<br>Food Pairing: Meats, poultry and cheese.<br>Serving Temperature: 16 -18 °C<br>Available in:<br>• 750ml bottle",
         "alcohol": "12.5%"
+    },
+    {
+        "id": "207",
+        "name": "Skinos Mastiha Spirit 750ml",
+        "category": "Spirits",
+        "price": 1750.0,
+        "image": "images/spirit/Skinos Mastiha Spirit 750ml.png",
+        "description": "Skinos Mastiha Spirit 750ml is a premium spirits crafted for the discerning palate.",
+        "alcohol": "30%"
     }
 ]
