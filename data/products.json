@@ -75,10 +75,10 @@
         "id": "9",
         "name": "Sakara El King Can 500ml",
         "category": "Beer",
-        "price": 75.0,
+        "price": 85.0,
         "image": "images/Beers/Sakara ElKing Can 500ml.png",
         "description": "Sakara El King Can 500ml is a testament to quality and tradition. A refreshing, crisp brew with a clean finish and balanced bitterness. Enjoy responsibly and elevate your next celebration with this exquisite choice.",
-        "alcohol": "10%"
+        "alcohol": "15%"
     },
     {
         "id": "10",
