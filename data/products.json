@@ -56,11 +56,11 @@
     {
         "id": "118",
         "name": "Meister Max Bottle 500ml",
-        "category": "",
+        "category": "Beer",
         "price": 65.0,
         "image": "images/spirit/Meister Max Bottle 500ml.png",
-        "description": "Meister Max Bottle 500ml is a premium  crafted for the discerning palate.",
-        "alcohol": "0%"
+        "description": "Meister Max Bottle 500ml is a premium beer crafted for the discerning palate.",
+        "alcohol": "8%"
     },
     {
         "id": "8",
@@ -73,11 +73,11 @@
     },
     {
         "id": "9",
-        "name": "Sakara ElKing Can 500ml",
+        "name": "Sakara El King Can 500ml",
         "category": "Beer",
         "price": 75.0,
         "image": "images/Beers/Sakara ElKing Can 500ml.png",
-        "description": "Sakara ElKing Can 500ml is a testament to quality and tradition. A refreshing, crisp brew with a clean finish and balanced bitterness. Enjoy responsibly and elevate your next celebration with this exquisite choice.",
+        "description": "Sakara El King Can 500ml is a testament to quality and tradition. A refreshing, crisp brew with a clean finish and balanced bitterness. Enjoy responsibly and elevate your next celebration with this exquisite choice.",
         "alcohol": "10%"
     },
     {
@@ -91,18 +91,18 @@
     },
     {
         "id": "11",
-        "name": "Sakara king Can 500ml",
+        "name": "Sakara King Can 500ml",
         "category": "Beer",
         "price": 85.0,
         "image": "images/Beers/Sakara king Can 500ml.png",
-        "description": "Sakara king Can 500ml is a testament to quality and tradition. A refreshing, crisp brew with a clean finish and balanced bitterness. Enjoy responsibly and elevate your next celebration with this exquisite choice.",
+        "description": "Sakara King Can 500ml is a testament to quality and tradition. A refreshing, crisp brew with a clean finish and balanced bitterness. Enjoy responsibly and elevate your next celebration with this exquisite choice.",
         "alcohol": "15%"
     },
     {
         "id": "12",
         "name": "Sol Bottle 330ml",
         "category": "Beer",
-        "price": 55.0,
+        "price": 0.0,
         "image": "images/Beers/Sol Bottle 330ml.jpg",
         "description": "Sol Bottle 330ml is a testament to quality and tradition. Light, easily drinkable with subtle citrus notes. Enjoy responsibly and elevate your next celebration with this exquisite choice.",
         "alcohol": "4.5%"
@@ -111,10 +111,10 @@
         "id": "119",
         "name": "Sakara Can 500ml",
         "category": "Beer",
-        "price": 85.0,
+        "price": 75.0,
         "image": "images/Beers/Sakara Can 500ml.png",
         "description": "Sakara Can 500ml is a premium beer crafted for the discerning palate.",
-        "alcohol": "15%"
+        "alcohol": "10%"
     },
     {
         "id": "13",
@@ -460,11 +460,11 @@
     },
     {
         "id": "53",
-        "name": "Arak",
+        "name": "Araq",
         "category": "Spirits",
         "price": 300.0,
         "image": "images/spirit/arak/{08B71497-789B-4980-BB4B-7AA246E12918}.png",
-        "description": "Arak is a testament to quality and tradition. Aged to perfection in oak barrels, delivering a smooth and complex flavor. Enjoy responsibly and elevate your next celebration with this exquisite choice.",
+        "description": "Araq is a testament to quality and tradition. Aged to perfection in oak barrels, delivering a smooth and complex flavor. Enjoy responsibly and elevate your next celebration with this exquisite choice.",
         "alcohol": "40%"
     },
     {
@@ -1085,7 +1085,7 @@
         "category": "Spirits",
         "price": 1750.0,
         "image": "images/spirit/Skinos Mastiha Spirit 750ml.png",
-        "description": "Skinos Mastiha Spirit 750ml is a premium spirits crafted for the discerning palate.",
+        "description": "Skinos Mastiha Spirit 750ml is a premium spirit crafted for the discerning palate.",
         "alcohol": "30%"
     }
 ]
