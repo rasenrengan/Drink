@@ -668,3 +668,110 @@ h1, h2, h3 { font-family: 'Montserrat', sans-serif; font-weight: 800; color: var
     .age-gate-modal { padding: 40px 20px; }
     .nav-search-results { width: calc(100vw - 30px); right: auto; left: 50%; transform: translateX(-50%); }
 }
+
+/* ─── Premium Language Switcher ─── */
+.lang-switcher {
+    position: relative;
+    margin-left: 20px;
+    display: inline-block;
+}
+
+.lang-select-btn {
+    background: rgba(255, 208, 40, 0.08);
+    border: 1.5px solid rgba(255, 208, 40, 0.3);
+    color: var(--text-main);
+    padding: 8px 16px;
+    border-radius: 25px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 0.85rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.lang-select-btn:hover {
+    border-color: var(--brand-orange);
+    background: rgba(255, 208, 40, 0.16);
+    box-shadow: 0 0 12px rgba(255, 208, 40, 0.2);
+    transform: translateY(-1px);
+}
+
+.lang-select-btn::after {
+    content: '▼';
+    font-size: 0.65rem;
+    color: var(--brand-orange);
+    transition: transform 0.3s ease;
+    margin-left: 2px;
+}
+
+.lang-switcher.open .lang-select-btn::after {
+    transform: rotate(180deg);
+}
+
+.lang-dropdown {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    margin-top: 10px;
+    background: rgba(255, 253, 244, 0.98);
+    backdrop-filter: blur(14px);
+    -webkit-backdrop-filter: blur(14px);
+    border: 1.5px solid rgba(255, 208, 40, 0.25);
+    border-radius: 16px;
+    box-shadow: 0 12px 36px rgba(20, 147, 163, 0.18);
+    list-style: none;
+    padding: 6px 0;
+    min-width: 140px;
+    display: none;
+    flex-direction: column;
+    z-index: 10001;
+    overflow: hidden;
+    animation: fadeInDropdown 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.lang-switcher.open .lang-dropdown {
+    display: flex;
+}
+
+.lang-option {
+    padding: 10px 20px;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.88rem;
+    font-weight: 600;
+    color: var(--text-main);
+    transition: all 0.2s ease;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.lang-option:hover {
+    background: rgba(255, 208, 40, 0.12);
+    color: var(--brand-orange);
+    padding-left: 24px;
+}
+
+.lang-option.active {
+    color: var(--sea-teal);
+    background: rgba(20, 147, 163, 0.06);
+}
+
+.lang-flag {
+    font-size: 1.1rem;
+    line-height: 1;
+}
+
+/* Responsive adjust for mobile screens */
+@media (max-width: 900px) {
+    .lang-switcher {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+}
+
